@@ -1,0 +1,92 @@
+{
+  "name": "flaggr",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Interactive world map for learning flags by colors and symbols. Built with Astro, React, and MapLibre GL.",
+  "author": "bebe3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bebe3/flaggr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bebe3/flaggr/issues"
+  },
+  "homepage": "https://github.com/bebe3/flaggr#readme",
+  "keywords": [
+    "astro",
+    "react",
+    "flags",
+    "world-map",
+    "maplibre",
+    "education",
+    "geography",
+    "i18n",
+    "tailwindcss"
+  ],
+  "scripts": {
+    "dev": "astro dev",
+    "prebuild": "npm run setup:flags",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.astro",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx,.astro --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,astro,json,css}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,astro,json,css}\"",
+    "typecheck": "astro check",
+    "setup:flags": "node scripts/copy-flags.js",
+    "check": "npm run typecheck && npm run lint",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.4.2",
+    "@astrojs/sitemap": "^3.6.1",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@tailwindcss/vite": "^4.1.18",
+    "@turf/bbox": "^7.3.1",
+    "@turf/centroid": "^7.3.1",
+    "@turf/helpers": "^7.3.1",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.16.8",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "country-flag-icons": "^1.6.4",
+    "lucide-react": "^0.562.0",
+    "maplibre-gl": "^5.16.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-map-gl": "^8.1.0",
+    "react-resizable-panels": "^4.4.0",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.6",
+    "@eslint/js": "^9.39.2",
+    "@typescript-eslint/eslint-plugin": "^8.52.0",
+    "@typescript-eslint/parser": "^8.52.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-astro": "^1.5.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.4",
+    "prettier-plugin-astro": "^0.14.1",
+    "tw-animate-css": "^1.4.0",
+    "typescript": "^5.9.3"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,astro}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{json,css,md}": [
+      "prettier --write"
+    ]
+  }
+}

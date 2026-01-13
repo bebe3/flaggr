@@ -1,0 +1,80 @@
+{
+  "version": 8,
+  "name": "Flaggr Dark",
+  "sources": {
+    "openfreemap": {
+      "type": "vector",
+      "url": "https://tiles.openfreemap.org/planet"
+    }
+  },
+  "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#262626"
+      }
+    },
+    {
+      "id": "landuse-residential",
+      "type": "fill",
+      "source": "openfreemap",
+      "source-layer": "landuse",
+      "filter": ["==", "class", "residential"],
+      "paint": {
+        "fill-color": "#2c2c2c",
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "id": "landcover-grass",
+      "type": "fill",
+      "source": "openfreemap",
+      "source-layer": "landcover",
+      "filter": ["==", "class", "grass"],
+      "paint": {
+        "fill-color": "#2f2f2f",
+        "fill-opacity": 0.5
+      }
+    },
+    {
+      "id": "landcover-wood",
+      "type": "fill",
+      "source": "openfreemap",
+      "source-layer": "landcover",
+      "filter": ["==", "class", "wood"],
+      "paint": {
+        "fill-color": "#323232",
+        "fill-opacity": 0.5
+      }
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "openfreemap",
+      "source-layer": "water",
+      "paint": {
+        "fill-color": "#262626"
+      }
+    },
+    {
+      "id": "boundary-country",
+      "type": "line",
+      "source": "openfreemap",
+      "source-layer": "boundary",
+      "filter": [
+        "all",
+        ["==", "admin_level", 2],
+        ["!=", "maritime", "yes"],
+        ["!=", "maritime", 1],
+        ["!=", "boundary", "maritime"]
+      ],
+      "paint": {
+        "line-color": "#3a3a3a",
+        "line-width": 0.5,
+        "line-opacity": 0.6
+      }
+    }
+  ]
+}

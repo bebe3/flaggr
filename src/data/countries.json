@@ -1,0 +1,3785 @@
+{
+  "countries": [
+    {
+      "code": "AFG",
+      "code2": "AF",
+      "names": {
+        "en": "Afghanistan",
+        "ja": "アフガニスタン",
+        "zh": "阿富汗",
+        "fr": "Afghanistan",
+        "es": "Afganistán",
+        "pt": "Afeganistão",
+        "ar": "أفغانستان",
+        "th": "อัฟกานิสถาน",
+        "vi": "Afghanistan",
+        "id": "Afganistan",
+        "ru": "Афганистан"
+      },
+      "colors": ["black", "red", "green", "white"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "AGO",
+      "code2": "AO",
+      "names": {
+        "en": "Angola",
+        "ja": "アンゴラ",
+        "zh": "安哥拉",
+        "fr": "Angola",
+        "es": "Angola",
+        "pt": "Angola",
+        "ar": "أنغولا",
+        "th": "แองโกลา",
+        "vi": "Angola",
+        "id": "Angola",
+        "ru": "Ангола"
+      },
+      "colors": ["red", "black", "yellow"],
+      "symbols": ["star", "emblem"]
+    },
+    {
+      "code": "ALB",
+      "code2": "AL",
+      "names": {
+        "en": "Albania",
+        "ja": "アルバニア",
+        "zh": "阿尔巴尼亚",
+        "fr": "Albanie",
+        "es": "Albania",
+        "pt": "Albânia",
+        "ar": "ألبانيا",
+        "th": "แอลเบเนีย",
+        "vi": "Albania",
+        "id": "Albania",
+        "ru": "Албания"
+      },
+      "colors": ["red", "black"],
+      "symbols": ["animal"]
+    },
+    {
+      "code": "AND",
+      "code2": "AD",
+      "names": {
+        "en": "Andorra",
+        "ja": "アンドラ",
+        "zh": "安道尔",
+        "fr": "Andorre",
+        "es": "Andorra",
+        "pt": "Andorra",
+        "ar": "أندورا",
+        "th": "อันดอร์รา",
+        "vi": "Andorra",
+        "id": "Andorra",
+        "ru": "Андорра"
+      },
+      "colors": ["blue", "yellow", "red"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "ARE",
+      "code2": "AE",
+      "names": {
+        "en": "United Arab Emirates",
+        "ja": "アラブ首長国連邦",
+        "zh": "阿联酋",
+        "fr": "Émirats arabes unis",
+        "es": "Emiratos Árabes Unidos",
+        "pt": "Emirados Árabes Unidos",
+        "ar": "الإمارات العربية المتحدة",
+        "th": "สหรัฐอาหรับเอมิเรตส์",
+        "vi": "Các Tiểu vương quốc Ả Rập Thống nhất",
+        "id": "Uni Emirat Arab",
+        "ru": "ОАЭ"
+      },
+      "colors": ["green", "white", "black", "red"],
+      "symbols": []
+    },
+    {
+      "code": "ARG",
+      "code2": "AR",
+      "names": {
+        "en": "Argentina",
+        "ja": "アルゼンチン",
+        "zh": "阿根廷",
+        "fr": "Argentine",
+        "es": "Argentina",
+        "pt": "Argentina",
+        "ar": "الأرجنتين",
+        "th": "อาร์เจนตินา",
+        "vi": "Argentina",
+        "id": "Argentina",
+        "ru": "Аргентина"
+      },
+      "colors": ["blue", "white", "yellow"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "ARM",
+      "code2": "AM",
+      "names": {
+        "en": "Armenia",
+        "ja": "アルメニア",
+        "zh": "亚美尼亚",
+        "fr": "Arménie",
+        "es": "Armenia",
+        "pt": "Armênia",
+        "ar": "أرمينيا",
+        "th": "อาร์เมเนีย",
+        "vi": "Armenia",
+        "id": "Armenia",
+        "ru": "Армения"
+      },
+      "colors": ["red", "blue", "orange"],
+      "symbols": []
+    },
+    {
+      "code": "ATG",
+      "code2": "AG",
+      "names": {
+        "en": "Antigua and Barbuda",
+        "ja": "アンティグア・バーブーダ",
+        "zh": "安提瓜和巴布达",
+        "fr": "Antigua-et-Barbuda",
+        "es": "Antigua y Barbuda",
+        "pt": "Antígua e Barbuda",
+        "ar": "أنتيغوا وباربودا",
+        "th": "แอนติกาและบาร์บูดา",
+        "vi": "Antigua và Barbuda",
+        "id": "Antigua dan Barbuda",
+        "ru": "Антигуа и Барбуда"
+      },
+      "colors": ["red", "blue", "black", "white", "yellow"],
+      "symbols": ["triangle"]
+    },
+    {
+      "code": "AUS",
+      "code2": "AU",
+      "names": {
+        "en": "Australia",
+        "ja": "オーストラリア",
+        "zh": "澳大利亚",
+        "fr": "Australie",
+        "es": "Australia",
+        "pt": "Austrália",
+        "ar": "أستراليا",
+        "th": "ออสเตรเลีย",
+        "vi": "Úc",
+        "id": "Australia",
+        "ru": "Австралия"
+      },
+      "colors": ["blue", "red", "white"],
+      "symbols": ["star", "cross"]
+    },
+    {
+      "code": "AUT",
+      "code2": "AT",
+      "names": {
+        "en": "Austria",
+        "ja": "オーストリア",
+        "zh": "奥地利",
+        "fr": "Autriche",
+        "es": "Austria",
+        "pt": "Áustria",
+        "ar": "النمسا",
+        "th": "ออสเตรีย",
+        "vi": "Áo",
+        "id": "Austria",
+        "ru": "Австрия"
+      },
+      "colors": ["red", "white"],
+      "symbols": []
+    },
+    {
+      "code": "AZE",
+      "code2": "AZ",
+      "names": {
+        "en": "Azerbaijan",
+        "ja": "アゼルバイジャン",
+        "zh": "阿塞拜疆",
+        "fr": "Azerbaïdjan",
+        "es": "Azerbaiyán",
+        "pt": "Azerbaijão",
+        "ar": "أذربيجان",
+        "th": "อาเซอร์ไบจาน",
+        "vi": "Azerbaijan",
+        "id": "Azerbaijan",
+        "ru": "Азербайджан"
+      },
+      "colors": ["blue", "red", "green", "white"],
+      "symbols": ["star", "moon"]
+    },
+    {
+      "code": "BDI",
+      "code2": "BI",
+      "names": {
+        "en": "Burundi",
+        "ja": "ブルンジ",
+        "zh": "布隆迪",
+        "fr": "Burundi",
+        "es": "Burundi",
+        "pt": "Burundi",
+        "ar": "بوروندي",
+        "th": "บุรุนดี",
+        "vi": "Burundi",
+        "id": "Burundi",
+        "ru": "Бурунди"
+      },
+      "colors": ["red", "green", "white"],
+      "symbols": ["star", "circle"]
+    },
+    {
+      "code": "BEL",
+      "code2": "BE",
+      "names": {
+        "en": "Belgium",
+        "ja": "ベルギー",
+        "zh": "比利时",
+        "fr": "Belgique",
+        "es": "Bélgica",
+        "pt": "Bélgica",
+        "ar": "بلجيكا",
+        "th": "เบลเยียม",
+        "vi": "Bỉ",
+        "id": "Belgia",
+        "ru": "Бельгия"
+      },
+      "colors": ["black", "yellow", "red"],
+      "symbols": []
+    },
+    {
+      "code": "BEN",
+      "code2": "BJ",
+      "names": {
+        "en": "Benin",
+        "ja": "ベナン",
+        "zh": "贝宁",
+        "fr": "Bénin",
+        "es": "Benín",
+        "pt": "Benim",
+        "ar": "بنين",
+        "th": "เบนิน",
+        "vi": "Bénin",
+        "id": "Benin",
+        "ru": "Бенин"
+      },
+      "colors": ["green", "yellow", "red"],
+      "symbols": []
+    },
+    {
+      "code": "BFA",
+      "code2": "BF",
+      "names": {
+        "en": "Burkina Faso",
+        "ja": "ブルキナファソ",
+        "zh": "布基纳法索",
+        "fr": "Burkina Faso",
+        "es": "Burkina Faso",
+        "pt": "Burkina Faso",
+        "ar": "بوركينا فاسو",
+        "th": "บูร์กินาฟาโซ",
+        "vi": "Burkina Faso",
+        "id": "Burkina Faso",
+        "ru": "Буркина-Фасо"
+      },
+      "colors": ["red", "green", "yellow"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "BGD",
+      "code2": "BD",
+      "names": {
+        "en": "Bangladesh",
+        "ja": "バングラデシュ",
+        "zh": "孟加拉国",
+        "fr": "Bangladesh",
+        "es": "Bangladesh",
+        "pt": "Bangladesh",
+        "ar": "بنغلاديش",
+        "th": "บังกลาเทศ",
+        "vi": "Bangladesh",
+        "id": "Bangladesh",
+        "ru": "Бангладеш"
+      },
+      "colors": ["green", "red"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "BGR",
+      "code2": "BG",
+      "names": {
+        "en": "Bulgaria",
+        "ja": "ブルガリア",
+        "zh": "保加利亚",
+        "fr": "Bulgarie",
+        "es": "Bulgaria",
+        "pt": "Bulgária",
+        "ar": "بلغاريا",
+        "th": "บัลแกเรีย",
+        "vi": "Bulgaria",
+        "id": "Bulgaria",
+        "ru": "Болгария"
+      },
+      "colors": ["white", "green", "red"],
+      "symbols": []
+    },
+    {
+      "code": "BHR",
+      "code2": "BH",
+      "names": {
+        "en": "Bahrain",
+        "ja": "バーレーン",
+        "zh": "巴林",
+        "fr": "Bahreïn",
+        "es": "Baréin",
+        "pt": "Bahrein",
+        "ar": "البحرين",
+        "th": "บาห์เรน",
+        "vi": "Bahrain",
+        "id": "Bahrain",
+        "ru": "Бахрейн"
+      },
+      "colors": ["red", "white"],
+      "symbols": []
+    },
+    {
+      "code": "BHS",
+      "code2": "BS",
+      "names": {
+        "en": "Bahamas",
+        "ja": "バハマ",
+        "zh": "巴哈马",
+        "fr": "Bahamas",
+        "es": "Bahamas",
+        "pt": "Bahamas",
+        "ar": "باهاماس",
+        "th": "บาฮามาส",
+        "vi": "Bahamas",
+        "id": "Bahama",
+        "ru": "Багамы"
+      },
+      "colors": ["blue", "yellow", "black"],
+      "symbols": ["triangle"]
+    },
+    {
+      "code": "BIH",
+      "code2": "BA",
+      "names": {
+        "en": "Bosnia and Herzegovina",
+        "ja": "ボスニア・ヘルツェゴビナ",
+        "zh": "波斯尼亚和黑塞哥维那",
+        "fr": "Bosnie-Herzégovine",
+        "es": "Bosnia y Herzegovina",
+        "pt": "Bósnia e Herzegovina",
+        "ar": "البوسنة والهرسك",
+        "th": "บอสเนียและเฮอร์เซโกวีนา",
+        "vi": "Bosnia và Herzegovina",
+        "id": "Bosnia dan Herzegovina",
+        "ru": "Босния и Герцеговина"
+      },
+      "colors": ["blue", "yellow", "white"],
+      "symbols": ["star", "triangle"]
+    },
+    {
+      "code": "BLR",
+      "code2": "BY",
+      "names": {
+        "en": "Belarus",
+        "ja": "ベラルーシ",
+        "zh": "白俄罗斯",
+        "fr": "Biélorussie",
+        "es": "Bielorrusia",
+        "pt": "Bielorrússia",
+        "ar": "بيلاروسيا",
+        "th": "เบลารุส",
+        "vi": "Belarus",
+        "id": "Belarus",
+        "ru": "Беларусь"
+      },
+      "colors": ["red", "green", "white"],
+      "symbols": []
+    },
+    {
+      "code": "BLZ",
+      "code2": "BZ",
+      "names": {
+        "en": "Belize",
+        "ja": "ベリーズ",
+        "zh": "伯利兹",
+        "fr": "Belize",
+        "es": "Belice",
+        "pt": "Belize",
+        "ar": "بليز",
+        "th": "เบลีซ",
+        "vi": "Belize",
+        "id": "Belize",
+        "ru": "Белиз"
+      },
+      "colors": ["blue", "red", "white"],
+      "symbols": ["emblem", "plant"]
+    },
+    {
+      "code": "BOL",
+      "code2": "BO",
+      "names": {
+        "en": "Bolivia",
+        "ja": "ボリビア",
+        "zh": "玻利维亚",
+        "fr": "Bolivie",
+        "es": "Bolivia",
+        "pt": "Bolívia",
+        "ar": "بوليفيا",
+        "th": "โบลิเวีย",
+        "vi": "Bolivia",
+        "id": "Bolivia",
+        "ru": "Боливия"
+      },
+      "colors": ["red", "yellow", "green"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "BRA",
+      "code2": "BR",
+      "names": {
+        "en": "Brazil",
+        "ja": "ブラジル",
+        "zh": "巴西",
+        "fr": "Brésil",
+        "es": "Brasil",
+        "pt": "Brasil",
+        "ar": "البرازيل",
+        "th": "บราซิล",
+        "vi": "Brazil",
+        "id": "Brasil",
+        "ru": "Бразилия"
+      },
+      "colors": ["green", "yellow", "blue", "white"],
+      "symbols": ["star", "circle"]
+    },
+    {
+      "code": "BRB",
+      "code2": "BB",
+      "names": {
+        "en": "Barbados",
+        "ja": "バルバドス",
+        "zh": "巴巴多斯",
+        "fr": "Barbade",
+        "es": "Barbados",
+        "pt": "Barbados",
+        "ar": "باربادوس",
+        "th": "บาร์เบโดส",
+        "vi": "Barbados",
+        "id": "Barbados",
+        "ru": "Барбадос"
+      },
+      "colors": ["blue", "yellow", "black"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "BRN",
+      "code2": "BN",
+      "names": {
+        "en": "Brunei",
+        "ja": "ブルネイ",
+        "zh": "文莱",
+        "fr": "Brunéi",
+        "es": "Brunéi",
+        "pt": "Brunei",
+        "ar": "بروناي",
+        "th": "บรูไน",
+        "vi": "Brunei",
+        "id": "Brunei",
+        "ru": "Бруней"
+      },
+      "colors": ["yellow", "white", "black", "red"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "BTN",
+      "code2": "BT",
+      "names": {
+        "en": "Bhutan",
+        "ja": "ブータン",
+        "zh": "不丹",
+        "fr": "Bhoutan",
+        "es": "Bután",
+        "pt": "Butão",
+        "ar": "بوتان",
+        "th": "ภูฏาน",
+        "vi": "Bhutan",
+        "id": "Bhutan",
+        "ru": "Бутан"
+      },
+      "colors": ["orange", "yellow", "white"],
+      "symbols": ["animal"]
+    },
+    {
+      "code": "BWA",
+      "code2": "BW",
+      "names": {
+        "en": "Botswana",
+        "ja": "ボツワナ",
+        "zh": "博茨瓦纳",
+        "fr": "Botswana",
+        "es": "Botsuana",
+        "pt": "Botsuana",
+        "ar": "بوتسوانا",
+        "th": "บอตสวานา",
+        "vi": "Botswana",
+        "id": "Botswana",
+        "ru": "Ботсвана"
+      },
+      "colors": ["blue", "white", "black"],
+      "symbols": []
+    },
+    {
+      "code": "CAF",
+      "code2": "CF",
+      "names": {
+        "en": "Central African Republic",
+        "ja": "中央アフリカ共和国",
+        "zh": "中非共和国",
+        "fr": "République centrafricaine",
+        "es": "República Centroafricana",
+        "pt": "República Centro-Africana",
+        "ar": "جمهورية أفريقيا الوسطى",
+        "th": "สาธารณรัฐแอฟริกากลาง",
+        "vi": "Cộng hòa Trung Phi",
+        "id": "Republik Afrika Tengah",
+        "ru": "ЦАР"
+      },
+      "colors": ["blue", "white", "green", "yellow", "red"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "CAN",
+      "code2": "CA",
+      "names": {
+        "en": "Canada",
+        "ja": "カナダ",
+        "zh": "加拿大",
+        "fr": "Canada",
+        "es": "Canadá",
+        "pt": "Canadá",
+        "ar": "كندا",
+        "th": "แคนาดา",
+        "vi": "Canada",
+        "id": "Kanada",
+        "ru": "Канада"
+      },
+      "colors": ["red", "white"],
+      "symbols": ["plant"]
+    },
+    {
+      "code": "CHE",
+      "code2": "CH",
+      "names": {
+        "en": "Switzerland",
+        "ja": "スイス",
+        "zh": "瑞士",
+        "fr": "Suisse",
+        "es": "Suiza",
+        "pt": "Suíça",
+        "ar": "سويسرا",
+        "th": "สวิตเซอร์แลนด์",
+        "vi": "Thụy Sĩ",
+        "id": "Swiss",
+        "ru": "Швейцария"
+      },
+      "colors": ["red", "white"],
+      "symbols": ["cross"]
+    },
+    {
+      "code": "CHL",
+      "code2": "CL",
+      "names": {
+        "en": "Chile",
+        "ja": "チリ",
+        "zh": "智利",
+        "fr": "Chili",
+        "es": "Chile",
+        "pt": "Chile",
+        "ar": "تشيلي",
+        "th": "ชิลี",
+        "vi": "Chile",
+        "id": "Chili",
+        "ru": "Чили"
+      },
+      "colors": ["blue", "white", "red"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "CHN",
+      "code2": "CN",
+      "names": {
+        "en": "China",
+        "ja": "中国",
+        "zh": "中国",
+        "fr": "Chine",
+        "es": "China",
+        "pt": "China",
+        "ar": "الصين",
+        "th": "จีน",
+        "vi": "Trung Quốc",
+        "id": "Tiongkok",
+        "ru": "Китай"
+      },
+      "colors": ["red", "yellow"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "CIV",
+      "code2": "CI",
+      "names": {
+        "en": "Ivory Coast",
+        "ja": "コートジボワール",
+        "zh": "科特迪瓦",
+        "fr": "Côte d'Ivoire",
+        "es": "Costa de Marfil",
+        "pt": "Costa do Marfim",
+        "ar": "ساحل العاج",
+        "th": "ไอวอรีโคสต์",
+        "vi": "Bờ Biển Ngà",
+        "id": "Pantai Gading",
+        "ru": "Кот-д'Ивуар"
+      },
+      "colors": ["orange", "white", "green"],
+      "symbols": []
+    },
+    {
+      "code": "CMR",
+      "code2": "CM",
+      "names": {
+        "en": "Cameroon",
+        "ja": "カメルーン",
+        "zh": "喀麦隆",
+        "fr": "Cameroun",
+        "es": "Camerún",
+        "pt": "Camarões",
+        "ar": "الكاميرون",
+        "th": "แคเมอรูน",
+        "vi": "Cameroon",
+        "id": "Kamerun",
+        "ru": "Камерун"
+      },
+      "colors": ["green", "red", "yellow"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "COD",
+      "code2": "CD",
+      "names": {
+        "en": "DR Congo",
+        "ja": "コンゴ民主共和国",
+        "zh": "刚果民主共和国",
+        "fr": "République démocratique du Congo",
+        "es": "República Democrática del Congo",
+        "pt": "República Democrática do Congo",
+        "ar": "جمهورية الكونغو الديمقراطية",
+        "th": "สาธารณรัฐประชาธิปไตยคองโก",
+        "vi": "Cộng hòa Dân chủ Congo",
+        "id": "Republik Demokratik Kongo",
+        "ru": "ДР Конго"
+      },
+      "colors": ["blue", "yellow", "red"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "COG",
+      "code2": "CG",
+      "names": {
+        "en": "Republic of the Congo",
+        "ja": "コンゴ共和国",
+        "zh": "刚果共和国",
+        "fr": "République du Congo",
+        "es": "República del Congo",
+        "pt": "República do Congo",
+        "ar": "جمهورية الكونغو",
+        "th": "สาธารณรัฐคองโก",
+        "vi": "Cộng hòa Congo",
+        "id": "Republik Kongo",
+        "ru": "Республика Конго"
+      },
+      "colors": ["green", "yellow", "red"],
+      "symbols": []
+    },
+    {
+      "code": "COL",
+      "code2": "CO",
+      "names": {
+        "en": "Colombia",
+        "ja": "コロンビア",
+        "zh": "哥伦比亚",
+        "fr": "Colombie",
+        "es": "Colombia",
+        "pt": "Colômbia",
+        "ar": "كولومبيا",
+        "th": "โคลอมเบีย",
+        "vi": "Colombia",
+        "id": "Kolombia",
+        "ru": "Колумбия"
+      },
+      "colors": ["yellow", "blue", "red"],
+      "symbols": []
+    },
+    {
+      "code": "COM",
+      "code2": "KM",
+      "names": {
+        "en": "Comoros",
+        "ja": "コモロ",
+        "zh": "科摩罗",
+        "fr": "Comores",
+        "es": "Comoras",
+        "pt": "Comores",
+        "ar": "جزر القمر",
+        "th": "คอโมโรส",
+        "vi": "Comoros",
+        "id": "Komoro",
+        "ru": "Коморы"
+      },
+      "colors": ["green", "white", "red", "yellow", "blue"],
+      "symbols": ["moon", "star", "triangle"]
+    },
+    {
+      "code": "CPV",
+      "code2": "CV",
+      "names": {
+        "en": "Cape Verde",
+        "ja": "カーボベルデ",
+        "zh": "佛得角",
+        "fr": "Cap-Vert",
+        "es": "Cabo Verde",
+        "pt": "Cabo Verde",
+        "ar": "الرأس الأخضر",
+        "th": "กาบูเวร์ดี",
+        "vi": "Cabo Verde",
+        "id": "Tanjung Verde",
+        "ru": "Кабо-Верде"
+      },
+      "colors": ["blue", "white", "red", "yellow"],
+      "symbols": ["star", "circle"]
+    },
+    {
+      "code": "CRI",
+      "code2": "CR",
+      "names": {
+        "en": "Costa Rica",
+        "ja": "コスタリカ",
+        "zh": "哥斯达黎加",
+        "fr": "Costa Rica",
+        "es": "Costa Rica",
+        "pt": "Costa Rica",
+        "ar": "كوستاريكا",
+        "th": "คอสตาริกา",
+        "vi": "Costa Rica",
+        "id": "Kosta Rika",
+        "ru": "Коста-Рика"
+      },
+      "colors": ["blue", "white", "red"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "CUB",
+      "code2": "CU",
+      "names": {
+        "en": "Cuba",
+        "ja": "キューバ",
+        "zh": "古巴",
+        "fr": "Cuba",
+        "es": "Cuba",
+        "pt": "Cuba",
+        "ar": "كوبا",
+        "th": "คิวบา",
+        "vi": "Cuba",
+        "id": "Kuba",
+        "ru": "Куба"
+      },
+      "colors": ["blue", "white", "red"],
+      "symbols": ["star", "triangle"]
+    },
+    {
+      "code": "CYP",
+      "code2": "CY",
+      "names": {
+        "en": "Cyprus",
+        "ja": "キプロス",
+        "zh": "塞浦路斯",
+        "fr": "Chypre",
+        "es": "Chipre",
+        "pt": "Chipre",
+        "ar": "قبرص",
+        "th": "ไซปรัส",
+        "vi": "Síp",
+        "id": "Siprus",
+        "ru": "Кипр"
+      },
+      "colors": ["white", "orange", "green"],
+      "symbols": []
+    },
+    {
+      "code": "CZE",
+      "code2": "CZ",
+      "names": {
+        "en": "Czech Republic",
+        "ja": "チェコ",
+        "zh": "捷克",
+        "fr": "République tchèque",
+        "es": "República Checa",
+        "pt": "República Tcheca",
+        "ar": "التشيك",
+        "th": "เช็กเกีย",
+        "vi": "Séc",
+        "id": "Ceko",
+        "ru": "Чехия"
+      },
+      "colors": ["white", "red", "blue"],
+      "symbols": ["triangle"]
+    },
+    {
+      "code": "DEU",
+      "code2": "DE",
+      "names": {
+        "en": "Germany",
+        "ja": "ドイツ",
+        "zh": "德国",
+        "fr": "Allemagne",
+        "es": "Alemania",
+        "pt": "Alemanha",
+        "ar": "ألمانيا",
+        "th": "เยอรมนี",
+        "vi": "Đức",
+        "id": "Jerman",
+        "ru": "Германия"
+      },
+      "colors": ["black", "red", "yellow"],
+      "symbols": []
+    },
+    {
+      "code": "DJI",
+      "code2": "DJ",
+      "names": {
+        "en": "Djibouti",
+        "ja": "ジブチ",
+        "zh": "吉布提",
+        "fr": "Djibouti",
+        "es": "Yibuti",
+        "pt": "Djibuti",
+        "ar": "جيبوتي",
+        "th": "จิบูตี",
+        "vi": "Djibouti",
+        "id": "Djibouti",
+        "ru": "Джибути"
+      },
+      "colors": ["blue", "green", "white", "red"],
+      "symbols": ["star", "triangle"]
+    },
+    {
+      "code": "DMA",
+      "code2": "DM",
+      "names": {
+        "en": "Dominica",
+        "ja": "ドミニカ国",
+        "zh": "多米尼克",
+        "fr": "Dominique",
+        "es": "Dominica",
+        "pt": "Dominica",
+        "ar": "دومينيكا",
+        "th": "โดมินิกา",
+        "vi": "Dominica",
+        "id": "Dominika",
+        "ru": "Доминика"
+      },
+      "colors": ["green", "yellow", "black", "white", "red"],
+      "symbols": ["animal", "cross", "star", "circle"]
+    },
+    {
+      "code": "DNK",
+      "code2": "DK",
+      "names": {
+        "en": "Denmark",
+        "ja": "デンマーク",
+        "zh": "丹麦",
+        "fr": "Danemark",
+        "es": "Dinamarca",
+        "pt": "Dinamarca",
+        "ar": "الدنمارك",
+        "th": "เดนมาร์ก",
+        "vi": "Đan Mạch",
+        "id": "Denmark",
+        "ru": "Дания"
+      },
+      "colors": ["red", "white"],
+      "symbols": ["cross"]
+    },
+    {
+      "code": "DOM",
+      "code2": "DO",
+      "names": {
+        "en": "Dominican Republic",
+        "ja": "ドミニカ共和国",
+        "zh": "多米尼加",
+        "fr": "République dominicaine",
+        "es": "República Dominicana",
+        "pt": "República Dominicana",
+        "ar": "جمهورية الدومينيكان",
+        "th": "สาธารณรัฐโดมินิกัน",
+        "vi": "Cộng hòa Dominica",
+        "id": "Republik Dominika",
+        "ru": "Доминиканская Республика"
+      },
+      "colors": ["blue", "red", "white"],
+      "symbols": ["emblem", "cross"]
+    },
+    {
+      "code": "DZA",
+      "code2": "DZ",
+      "names": {
+        "en": "Algeria",
+        "ja": "アルジェリア",
+        "zh": "阿尔及利亚",
+        "fr": "Algérie",
+        "es": "Argelia",
+        "pt": "Argélia",
+        "ar": "الجزائر",
+        "th": "แอลจีเรีย",
+        "vi": "Algeria",
+        "id": "Aljazair",
+        "ru": "Алжир"
+      },
+      "colors": ["green", "white", "red"],
+      "symbols": ["star", "moon"]
+    },
+    {
+      "code": "ECU",
+      "code2": "EC",
+      "names": {
+        "en": "Ecuador",
+        "ja": "エクアドル",
+        "zh": "厄瓜多尔",
+        "fr": "Équateur",
+        "es": "Ecuador",
+        "pt": "Equador",
+        "ar": "الإكوادور",
+        "th": "เอกวาดอร์",
+        "vi": "Ecuador",
+        "id": "Ekuador",
+        "ru": "Эквадор"
+      },
+      "colors": ["yellow", "blue", "red"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "EGY",
+      "code2": "EG",
+      "names": {
+        "en": "Egypt",
+        "ja": "エジプト",
+        "zh": "埃及",
+        "fr": "Égypte",
+        "es": "Egipto",
+        "pt": "Egito",
+        "ar": "مصر",
+        "th": "อียิปต์",
+        "vi": "Ai Cập",
+        "id": "Mesir",
+        "ru": "Египет"
+      },
+      "colors": ["red", "white", "black", "yellow"],
+      "symbols": ["animal"]
+    },
+    {
+      "code": "ERI",
+      "code2": "ER",
+      "names": {
+        "en": "Eritrea",
+        "ja": "エリトリア",
+        "zh": "厄立特里亚",
+        "fr": "Érythrée",
+        "es": "Eritrea",
+        "pt": "Eritreia",
+        "ar": "إريتريا",
+        "th": "เอริเทรีย",
+        "vi": "Eritrea",
+        "id": "Eritrea",
+        "ru": "Эритрея"
+      },
+      "colors": ["green", "blue", "red", "yellow"],
+      "symbols": ["plant", "triangle"]
+    },
+    {
+      "code": "ESP",
+      "code2": "ES",
+      "names": {
+        "en": "Spain",
+        "ja": "スペイン",
+        "zh": "西班牙",
+        "fr": "Espagne",
+        "es": "España",
+        "pt": "Espanha",
+        "ar": "إسبانيا",
+        "th": "สเปน",
+        "vi": "Tây Ban Nha",
+        "id": "Spanyol",
+        "ru": "Испания"
+      },
+      "colors": ["red", "yellow"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "EST",
+      "code2": "EE",
+      "names": {
+        "en": "Estonia",
+        "ja": "エストニア",
+        "zh": "爱沙尼亚",
+        "fr": "Estonie",
+        "es": "Estonia",
+        "pt": "Estônia",
+        "ar": "إستونيا",
+        "th": "เอสโตเนีย",
+        "vi": "Estonia",
+        "id": "Estonia",
+        "ru": "Эстония"
+      },
+      "colors": ["blue", "black", "white"],
+      "symbols": []
+    },
+    {
+      "code": "ETH",
+      "code2": "ET",
+      "names": {
+        "en": "Ethiopia",
+        "ja": "エチオピア",
+        "zh": "埃塞俄比亚",
+        "fr": "Éthiopie",
+        "es": "Etiopía",
+        "pt": "Etiópia",
+        "ar": "إثيوبيا",
+        "th": "เอธิโอเปีย",
+        "vi": "Ethiopia",
+        "id": "Etiopia",
+        "ru": "Эфиопия"
+      },
+      "colors": ["green", "yellow", "red", "blue"],
+      "symbols": ["star", "circle"]
+    },
+    {
+      "code": "FIN",
+      "code2": "FI",
+      "names": {
+        "en": "Finland",
+        "ja": "フィンランド",
+        "zh": "芬兰",
+        "fr": "Finlande",
+        "es": "Finlandia",
+        "pt": "Finlândia",
+        "ar": "فنلندا",
+        "th": "ฟินแลนด์",
+        "vi": "Phần Lan",
+        "id": "Finlandia",
+        "ru": "Финляндия"
+      },
+      "colors": ["white", "blue"],
+      "symbols": ["cross"]
+    },
+    {
+      "code": "FJI",
+      "code2": "FJ",
+      "names": {
+        "en": "Fiji",
+        "ja": "フィジー",
+        "zh": "斐济",
+        "fr": "Fidji",
+        "es": "Fiyi",
+        "pt": "Fiji",
+        "ar": "فيجي",
+        "th": "ฟิจิ",
+        "vi": "Fiji",
+        "id": "Fiji",
+        "ru": "Фиджи"
+      },
+      "colors": ["blue", "white", "red", "yellow", "green"],
+      "symbols": ["emblem", "cross"]
+    },
+    {
+      "code": "FRA",
+      "code2": "FR",
+      "names": {
+        "en": "France",
+        "ja": "フランス",
+        "zh": "法国",
+        "fr": "France",
+        "es": "Francia",
+        "pt": "França",
+        "ar": "فرنسا",
+        "th": "ฝรั่งเศส",
+        "vi": "Pháp",
+        "id": "Prancis",
+        "ru": "Франция"
+      },
+      "colors": ["blue", "white", "red"],
+      "symbols": []
+    },
+    {
+      "code": "FSM",
+      "code2": "FM",
+      "names": {
+        "en": "Micronesia",
+        "ja": "ミクロネシア",
+        "zh": "密克罗尼西亚",
+        "fr": "Micronésie",
+        "es": "Micronesia",
+        "pt": "Micronésia",
+        "ar": "ميكرونيسيا",
+        "th": "ไมโครนีเซีย",
+        "vi": "Liên bang Micronesia",
+        "id": "Mikronesia",
+        "ru": "Микронезия"
+      },
+      "colors": ["blue", "white"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "GAB",
+      "code2": "GA",
+      "names": {
+        "en": "Gabon",
+        "ja": "ガボン",
+        "zh": "加蓬",
+        "fr": "Gabon",
+        "es": "Gabón",
+        "pt": "Gabão",
+        "ar": "الغابون",
+        "th": "กาบอง",
+        "vi": "Gabon",
+        "id": "Gabon",
+        "ru": "Габон"
+      },
+      "colors": ["green", "yellow", "blue"],
+      "symbols": []
+    },
+    {
+      "code": "GBR",
+      "code2": "GB",
+      "names": {
+        "en": "United Kingdom",
+        "ja": "イギリス",
+        "zh": "英国",
+        "fr": "Royaume-Uni",
+        "es": "Reino Unido",
+        "pt": "Reino Unido",
+        "ar": "المملكة المتحدة",
+        "th": "สหราชอาณาจักร",
+        "vi": "Vương quốc Anh",
+        "id": "Britania Raya",
+        "ru": "Великобритания"
+      },
+      "colors": ["red", "white", "blue"],
+      "symbols": ["cross"]
+    },
+    {
+      "code": "GEO",
+      "code2": "GE",
+      "names": {
+        "en": "Georgia",
+        "ja": "ジョージア",
+        "zh": "格鲁吉亚",
+        "fr": "Géorgie",
+        "es": "Georgia",
+        "pt": "Geórgia",
+        "ar": "جورجيا",
+        "th": "จอร์เจีย",
+        "vi": "Gruzia",
+        "id": "Georgia",
+        "ru": "Грузия"
+      },
+      "colors": ["white", "red"],
+      "symbols": ["cross"]
+    },
+    {
+      "code": "GHA",
+      "code2": "GH",
+      "names": {
+        "en": "Ghana",
+        "ja": "ガーナ",
+        "zh": "加纳",
+        "fr": "Ghana",
+        "es": "Ghana",
+        "pt": "Gana",
+        "ar": "غانا",
+        "th": "กานา",
+        "vi": "Ghana",
+        "id": "Ghana",
+        "ru": "Гана"
+      },
+      "colors": ["red", "yellow", "green", "black"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "GIN",
+      "code2": "GN",
+      "names": {
+        "en": "Guinea",
+        "ja": "ギニア",
+        "zh": "几内亚",
+        "fr": "Guinée",
+        "es": "Guinea",
+        "pt": "Guiné",
+        "ar": "غينيا",
+        "th": "กินี",
+        "vi": "Guinée",
+        "id": "Guinea",
+        "ru": "Гвинея"
+      },
+      "colors": ["red", "yellow", "green"],
+      "symbols": []
+    },
+    {
+      "code": "GMB",
+      "code2": "GM",
+      "names": {
+        "en": "Gambia",
+        "ja": "ガンビア",
+        "zh": "冈比亚",
+        "fr": "Gambie",
+        "es": "Gambia",
+        "pt": "Gâmbia",
+        "ar": "غامبيا",
+        "th": "แกมเบีย",
+        "vi": "Gambia",
+        "id": "Gambia",
+        "ru": "Гамбия"
+      },
+      "colors": ["red", "blue", "green", "white"],
+      "symbols": []
+    },
+    {
+      "code": "GNB",
+      "code2": "GW",
+      "names": {
+        "en": "Guinea-Bissau",
+        "ja": "ギニアビサウ",
+        "zh": "几内亚比绍",
+        "fr": "Guinée-Bissau",
+        "es": "Guinea-Bisáu",
+        "pt": "Guiné-Bissau",
+        "ar": "غينيا بيساو",
+        "th": "กินี-บิสเซา",
+        "vi": "Guiné-Bissau",
+        "id": "Guinea-Bissau",
+        "ru": "Гвинея-Бисау"
+      },
+      "colors": ["red", "yellow", "green", "black"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "GNQ",
+      "code2": "GQ",
+      "names": {
+        "en": "Equatorial Guinea",
+        "ja": "赤道ギニア",
+        "zh": "赤道几内亚",
+        "fr": "Guinée équatoriale",
+        "es": "Guinea Ecuatorial",
+        "pt": "Guiné Equatorial",
+        "ar": "غينيا الاستوائية",
+        "th": "อิเควทอเรียลกินี",
+        "vi": "Guinea Xích Đạo",
+        "id": "Guinea Khatulistiwa",
+        "ru": "Экваториальная Гвинея"
+      },
+      "colors": ["green", "white", "red", "blue"],
+      "symbols": ["emblem", "triangle", "plant"]
+    },
+    {
+      "code": "GRC",
+      "code2": "GR",
+      "names": {
+        "en": "Greece",
+        "ja": "ギリシャ",
+        "zh": "希腊",
+        "fr": "Grèce",
+        "es": "Grecia",
+        "pt": "Grécia",
+        "ar": "اليونان",
+        "th": "กรีซ",
+        "vi": "Hy Lạp",
+        "id": "Yunani",
+        "ru": "Греция"
+      },
+      "colors": ["blue", "white"],
+      "symbols": ["cross"]
+    },
+    {
+      "code": "GRD",
+      "code2": "GD",
+      "names": {
+        "en": "Grenada",
+        "ja": "グレナダ",
+        "zh": "格林纳达",
+        "fr": "Grenade",
+        "es": "Granada",
+        "pt": "Granada",
+        "ar": "غرينادا",
+        "th": "เกรเนดา",
+        "vi": "Grenada",
+        "id": "Grenada",
+        "ru": "Гренада"
+      },
+      "colors": ["red", "yellow", "green"],
+      "symbols": ["star", "emblem", "plant"]
+    },
+    {
+      "code": "GTM",
+      "code2": "GT",
+      "names": {
+        "en": "Guatemala",
+        "ja": "グアテマラ",
+        "zh": "危地马拉",
+        "fr": "Guatemala",
+        "es": "Guatemala",
+        "pt": "Guatemala",
+        "ar": "غواتيمالا",
+        "th": "กัวเตมาลา",
+        "vi": "Guatemala",
+        "id": "Guatemala",
+        "ru": "Гватемала"
+      },
+      "colors": ["blue", "white"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "GUY",
+      "code2": "GY",
+      "names": {
+        "en": "Guyana",
+        "ja": "ガイアナ",
+        "zh": "圭亚那",
+        "fr": "Guyana",
+        "es": "Guyana",
+        "pt": "Guiana",
+        "ar": "غيانا",
+        "th": "กายอานา",
+        "vi": "Guyana",
+        "id": "Guyana",
+        "ru": "Гайана"
+      },
+      "colors": ["green", "yellow", "white", "black", "red"],
+      "symbols": ["triangle"]
+    },
+    {
+      "code": "HKG",
+      "code2": "HK",
+      "names": {
+        "en": "Hong Kong",
+        "ja": "香港",
+        "zh": "香港",
+        "fr": "Hong Kong",
+        "es": "Hong Kong",
+        "pt": "Hong Kong",
+        "ar": "هونغ كونغ",
+        "th": "ฮ่องกง",
+        "vi": "Hồng Kông",
+        "id": "Hong Kong",
+        "ru": "Гонконг"
+      },
+      "colors": ["red", "white"],
+      "symbols": ["plant"]
+    },
+    {
+      "code": "HND",
+      "code2": "HN",
+      "names": {
+        "en": "Honduras",
+        "ja": "ホンジュラス",
+        "zh": "洪都拉斯",
+        "fr": "Honduras",
+        "es": "Honduras",
+        "pt": "Honduras",
+        "ar": "هندوراس",
+        "th": "ฮอนดูรัส",
+        "vi": "Honduras",
+        "id": "Honduras",
+        "ru": "Гондурас"
+      },
+      "colors": ["blue", "white"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "HRV",
+      "code2": "HR",
+      "names": {
+        "en": "Croatia",
+        "ja": "クロアチア",
+        "zh": "克罗地亚",
+        "fr": "Croatie",
+        "es": "Croacia",
+        "pt": "Croácia",
+        "ar": "كرواتيا",
+        "th": "โครเอเชีย",
+        "vi": "Croatia",
+        "id": "Kroasia",
+        "ru": "Хорватия"
+      },
+      "colors": ["red", "white", "blue"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "HTI",
+      "code2": "HT",
+      "names": {
+        "en": "Haiti",
+        "ja": "ハイチ",
+        "zh": "海地",
+        "fr": "Haïti",
+        "es": "Haití",
+        "pt": "Haiti",
+        "ar": "هايتي",
+        "th": "เฮติ",
+        "vi": "Haiti",
+        "id": "Haiti",
+        "ru": "Гаити"
+      },
+      "colors": ["blue", "red", "white"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "HUN",
+      "code2": "HU",
+      "names": {
+        "en": "Hungary",
+        "ja": "ハンガリー",
+        "zh": "匈牙利",
+        "fr": "Hongrie",
+        "es": "Hungría",
+        "pt": "Hungria",
+        "ar": "المجر",
+        "th": "ฮังการี",
+        "vi": "Hungary",
+        "id": "Hongaria",
+        "ru": "Венгрия"
+      },
+      "colors": ["red", "white", "green"],
+      "symbols": []
+    },
+    {
+      "code": "IDN",
+      "code2": "ID",
+      "names": {
+        "en": "Indonesia",
+        "ja": "インドネシア",
+        "zh": "印度尼西亚",
+        "fr": "Indonésie",
+        "es": "Indonesia",
+        "pt": "Indonésia",
+        "ar": "إندونيسيا",
+        "th": "อินโดนีเซีย",
+        "vi": "Indonesia",
+        "id": "Indonesia",
+        "ru": "Индонезия"
+      },
+      "colors": ["red", "white"],
+      "symbols": []
+    },
+    {
+      "code": "IND",
+      "code2": "IN",
+      "names": {
+        "en": "India",
+        "ja": "インド",
+        "zh": "印度",
+        "fr": "Inde",
+        "es": "India",
+        "pt": "Índia",
+        "ar": "الهند",
+        "th": "อินเดีย",
+        "vi": "Ấn Độ",
+        "id": "India",
+        "ru": "Индия"
+      },
+      "colors": ["orange", "white", "green", "blue"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "IRL",
+      "code2": "IE",
+      "names": {
+        "en": "Ireland",
+        "ja": "アイルランド",
+        "zh": "爱尔兰",
+        "fr": "Irlande",
+        "es": "Irlanda",
+        "pt": "Irlanda",
+        "ar": "أيرلندا",
+        "th": "ไอร์แลนด์",
+        "vi": "Ireland",
+        "id": "Irlandia",
+        "ru": "Ирландия"
+      },
+      "colors": ["green", "white", "orange"],
+      "symbols": []
+    },
+    {
+      "code": "IRN",
+      "code2": "IR",
+      "names": {
+        "en": "Iran",
+        "ja": "イラン",
+        "zh": "伊朗",
+        "fr": "Iran",
+        "es": "Irán",
+        "pt": "Irã",
+        "ar": "إيران",
+        "th": "อิหร่าน",
+        "vi": "Iran",
+        "id": "Iran",
+        "ru": "Иран"
+      },
+      "colors": ["green", "white", "red"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "IRQ",
+      "code2": "IQ",
+      "names": {
+        "en": "Iraq",
+        "ja": "イラク",
+        "zh": "伊拉克",
+        "fr": "Irak",
+        "es": "Irak",
+        "pt": "Iraque",
+        "ar": "العراق",
+        "th": "อิรัก",
+        "vi": "Iraq",
+        "id": "Irak",
+        "ru": "Ирак"
+      },
+      "colors": ["red", "white", "black", "green"],
+      "symbols": []
+    },
+    {
+      "code": "ISL",
+      "code2": "IS",
+      "names": {
+        "en": "Iceland",
+        "ja": "アイスランド",
+        "zh": "冰岛",
+        "fr": "Islande",
+        "es": "Islandia",
+        "pt": "Islândia",
+        "ar": "آيسلندا",
+        "th": "ไอซ์แลนด์",
+        "vi": "Iceland",
+        "id": "Islandia",
+        "ru": "Исландия"
+      },
+      "colors": ["blue", "white", "red"],
+      "symbols": ["cross"]
+    },
+    {
+      "code": "ISR",
+      "code2": "IL",
+      "names": {
+        "en": "Israel",
+        "ja": "イスラエル",
+        "zh": "以色列",
+        "fr": "Israël",
+        "es": "Israel",
+        "pt": "Israel",
+        "ar": "إسرائيل",
+        "th": "อิสราเอล",
+        "vi": "Israel",
+        "id": "Israel",
+        "ru": "Израиль"
+      },
+      "colors": ["white", "blue"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "ITA",
+      "code2": "IT",
+      "names": {
+        "en": "Italy",
+        "ja": "イタリア",
+        "zh": "意大利",
+        "fr": "Italie",
+        "es": "Italia",
+        "pt": "Itália",
+        "ar": "إيطاليا",
+        "th": "อิตาลี",
+        "vi": "Ý",
+        "id": "Italia",
+        "ru": "Италия"
+      },
+      "colors": ["green", "white", "red"],
+      "symbols": []
+    },
+    {
+      "code": "JAM",
+      "code2": "JM",
+      "names": {
+        "en": "Jamaica",
+        "ja": "ジャマイカ",
+        "zh": "牙买加",
+        "fr": "Jamaïque",
+        "es": "Jamaica",
+        "pt": "Jamaica",
+        "ar": "جامايكا",
+        "th": "จาเมกา",
+        "vi": "Jamaica",
+        "id": "Jamaika",
+        "ru": "Ямайка"
+      },
+      "colors": ["green", "yellow", "black"],
+      "symbols": ["cross"]
+    },
+    {
+      "code": "JOR",
+      "code2": "JO",
+      "names": {
+        "en": "Jordan",
+        "ja": "ヨルダン",
+        "zh": "约旦",
+        "fr": "Jordanie",
+        "es": "Jordania",
+        "pt": "Jordânia",
+        "ar": "الأردن",
+        "th": "จอร์แดน",
+        "vi": "Jordan",
+        "id": "Yordania",
+        "ru": "Иордания"
+      },
+      "colors": ["black", "white", "green", "red"],
+      "symbols": ["star", "triangle"]
+    },
+    {
+      "code": "JPN",
+      "code2": "JP",
+      "names": {
+        "en": "Japan",
+        "ja": "日本",
+        "zh": "日本",
+        "fr": "Japon",
+        "es": "Japón",
+        "pt": "Japão",
+        "ar": "اليابان",
+        "th": "ญี่ปุ่น",
+        "vi": "Nhật Bản",
+        "id": "Jepang",
+        "ru": "Япония"
+      },
+      "colors": ["red", "white"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "KAZ",
+      "code2": "KZ",
+      "names": {
+        "en": "Kazakhstan",
+        "ja": "カザフスタン",
+        "zh": "哈萨克斯坦",
+        "fr": "Kazakhstan",
+        "es": "Kazajistán",
+        "pt": "Cazaquistão",
+        "ar": "كازاخستان",
+        "th": "คาซัคสถาน",
+        "vi": "Kazakhstan",
+        "id": "Kazakhstan",
+        "ru": "Казахстан"
+      },
+      "colors": ["blue", "yellow"],
+      "symbols": ["circle", "animal"]
+    },
+    {
+      "code": "KEN",
+      "code2": "KE",
+      "names": {
+        "en": "Kenya",
+        "ja": "ケニア",
+        "zh": "肯尼亚",
+        "fr": "Kenya",
+        "es": "Kenia",
+        "pt": "Quênia",
+        "ar": "كينيا",
+        "th": "เคนยา",
+        "vi": "Kenya",
+        "id": "Kenya",
+        "ru": "Кения"
+      },
+      "colors": ["black", "red", "green", "white"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "KGZ",
+      "code2": "KG",
+      "names": {
+        "en": "Kyrgyzstan",
+        "ja": "キルギス",
+        "zh": "吉尔吉斯斯坦",
+        "fr": "Kirghizistan",
+        "es": "Kirguistán",
+        "pt": "Quirguistão",
+        "ar": "قيرغيزستان",
+        "th": "คีร์กีซสถาน",
+        "vi": "Kyrgyzstan",
+        "id": "Kirgizstan",
+        "ru": "Киргизия"
+      },
+      "colors": ["red", "yellow"],
+      "symbols": ["circle", "emblem"]
+    },
+    {
+      "code": "KHM",
+      "code2": "KH",
+      "names": {
+        "en": "Cambodia",
+        "ja": "カンボジア",
+        "zh": "柬埔寨",
+        "fr": "Cambodge",
+        "es": "Camboya",
+        "pt": "Camboja",
+        "ar": "كمبوديا",
+        "th": "กัมพูชา",
+        "vi": "Campuchia",
+        "id": "Kamboja",
+        "ru": "Камбоджа"
+      },
+      "colors": ["blue", "red", "white"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "KIR",
+      "code2": "KI",
+      "names": {
+        "en": "Kiribati",
+        "ja": "キリバス",
+        "zh": "基里巴斯",
+        "fr": "Kiribati",
+        "es": "Kiribati",
+        "pt": "Kiribati",
+        "ar": "كيريباتي",
+        "th": "คิริบาส",
+        "vi": "Kiribati",
+        "id": "Kiribati",
+        "ru": "Кирибати"
+      },
+      "colors": ["red", "blue", "yellow", "white"],
+      "symbols": ["animal", "circle"]
+    },
+    {
+      "code": "KNA",
+      "code2": "KN",
+      "names": {
+        "en": "Saint Kitts and Nevis",
+        "ja": "セントクリストファー・ネイビス",
+        "zh": "圣基茨和尼维斯",
+        "fr": "Saint-Kitts-et-Nevis",
+        "es": "San Cristóbal y Nieves",
+        "pt": "São Cristóvão e Nevis",
+        "ar": "سانت كيتس ونيفيس",
+        "th": "เซนต์คิตส์และเนวิส",
+        "vi": "Saint Kitts và Nevis",
+        "id": "Saint Kitts dan Nevis",
+        "ru": "Сент-Китс и Невис"
+      },
+      "colors": ["green", "red", "yellow", "black", "white"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "KOR",
+      "code2": "KR",
+      "names": {
+        "en": "South Korea",
+        "ja": "韓国",
+        "zh": "韩国",
+        "fr": "Corée du Sud",
+        "es": "Corea del Sur",
+        "pt": "Coreia do Sul",
+        "ar": "كوريا الجنوبية",
+        "th": "เกาหลีใต้",
+        "vi": "Hàn Quốc",
+        "id": "Korea Selatan",
+        "ru": "Южная Корея"
+      },
+      "colors": ["white", "red", "blue", "black"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "KWT",
+      "code2": "KW",
+      "names": {
+        "en": "Kuwait",
+        "ja": "クウェート",
+        "zh": "科威特",
+        "fr": "Koweït",
+        "es": "Kuwait",
+        "pt": "Kuwait",
+        "ar": "الكويت",
+        "th": "คูเวต",
+        "vi": "Kuwait",
+        "id": "Kuwait",
+        "ru": "Кувейт"
+      },
+      "colors": ["green", "white", "red", "black"],
+      "symbols": []
+    },
+    {
+      "code": "LAO",
+      "code2": "LA",
+      "names": {
+        "en": "Laos",
+        "ja": "ラオス",
+        "zh": "老挝",
+        "fr": "Laos",
+        "es": "Laos",
+        "pt": "Laos",
+        "ar": "لاوس",
+        "th": "ลาว",
+        "vi": "Lào",
+        "id": "Laos",
+        "ru": "Лаос"
+      },
+      "colors": ["red", "blue", "white"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "LBN",
+      "code2": "LB",
+      "names": {
+        "en": "Lebanon",
+        "ja": "レバノン",
+        "zh": "黎巴嫩",
+        "fr": "Liban",
+        "es": "Líbano",
+        "pt": "Líbano",
+        "ar": "لبنان",
+        "th": "เลบานอน",
+        "vi": "Lebanon",
+        "id": "Lebanon",
+        "ru": "Ливан"
+      },
+      "colors": ["red", "white", "green"],
+      "symbols": ["plant"]
+    },
+    {
+      "code": "LBR",
+      "code2": "LR",
+      "names": {
+        "en": "Liberia",
+        "ja": "リベリア",
+        "zh": "利比里亚",
+        "fr": "Libéria",
+        "es": "Liberia",
+        "pt": "Libéria",
+        "ar": "ليبيريا",
+        "th": "ไลบีเรีย",
+        "vi": "Liberia",
+        "id": "Liberia",
+        "ru": "Либерия"
+      },
+      "colors": ["red", "white", "blue"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "LBY",
+      "code2": "LY",
+      "names": {
+        "en": "Libya",
+        "ja": "リビア",
+        "zh": "利比亚",
+        "fr": "Libye",
+        "es": "Libia",
+        "pt": "Líbia",
+        "ar": "ليبيا",
+        "th": "ลิเบีย",
+        "vi": "Libya",
+        "id": "Libya",
+        "ru": "Ливия"
+      },
+      "colors": ["red", "black", "green", "white"],
+      "symbols": ["star", "moon"]
+    },
+    {
+      "code": "LCA",
+      "code2": "LC",
+      "names": {
+        "en": "Saint Lucia",
+        "ja": "セントルシア",
+        "zh": "圣卢西亚",
+        "fr": "Sainte-Lucie",
+        "es": "Santa Lucía",
+        "pt": "Santa Lúcia",
+        "ar": "سانت لوسيا",
+        "th": "เซนต์ลูเซีย",
+        "vi": "Saint Lucia",
+        "id": "Saint Lucia",
+        "ru": "Сент-Люсия"
+      },
+      "colors": ["blue", "yellow", "black", "white"],
+      "symbols": ["triangle"]
+    },
+    {
+      "code": "LIE",
+      "code2": "LI",
+      "names": {
+        "en": "Liechtenstein",
+        "ja": "リヒテンシュタイン",
+        "zh": "列支敦士登",
+        "fr": "Liechtenstein",
+        "es": "Liechtenstein",
+        "pt": "Liechtenstein",
+        "ar": "ليختنشتاين",
+        "th": "ลิกเตนสไตน์",
+        "vi": "Liechtenstein",
+        "id": "Liechtenstein",
+        "ru": "Лихтенштейн"
+      },
+      "colors": ["blue", "red", "yellow"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "LKA",
+      "code2": "LK",
+      "names": {
+        "en": "Sri Lanka",
+        "ja": "スリランカ",
+        "zh": "斯里兰卡",
+        "fr": "Sri Lanka",
+        "es": "Sri Lanka",
+        "pt": "Sri Lanka",
+        "ar": "سريلانكا",
+        "th": "ศรีลังกา",
+        "vi": "Sri Lanka",
+        "id": "Sri Lanka",
+        "ru": "Шри-Ланка"
+      },
+      "colors": ["yellow", "green", "orange", "red"],
+      "symbols": ["animal"]
+    },
+    {
+      "code": "LSO",
+      "code2": "LS",
+      "names": {
+        "en": "Lesotho",
+        "ja": "レソト",
+        "zh": "莱索托",
+        "fr": "Lesotho",
+        "es": "Lesoto",
+        "pt": "Lesoto",
+        "ar": "ليسوتو",
+        "th": "เลโซโท",
+        "vi": "Lesotho",
+        "id": "Lesotho",
+        "ru": "Лесото"
+      },
+      "colors": ["blue", "white", "green", "black"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "LTU",
+      "code2": "LT",
+      "names": {
+        "en": "Lithuania",
+        "ja": "リトアニア",
+        "zh": "立陶宛",
+        "fr": "Lituanie",
+        "es": "Lituania",
+        "pt": "Lituânia",
+        "ar": "ليتوانيا",
+        "th": "ลิทัวเนีย",
+        "vi": "Lithuania",
+        "id": "Lituania",
+        "ru": "Литва"
+      },
+      "colors": ["yellow", "green", "red"],
+      "symbols": []
+    },
+    {
+      "code": "LUX",
+      "code2": "LU",
+      "names": {
+        "en": "Luxembourg",
+        "ja": "ルクセンブルク",
+        "zh": "卢森堡",
+        "fr": "Luxembourg",
+        "es": "Luxemburgo",
+        "pt": "Luxemburgo",
+        "ar": "لوكسمبورغ",
+        "th": "ลักเซมเบิร์ก",
+        "vi": "Luxembourg",
+        "id": "Luksemburg",
+        "ru": "Люксембург"
+      },
+      "colors": ["red", "white", "blue"],
+      "symbols": []
+    },
+    {
+      "code": "LVA",
+      "code2": "LV",
+      "names": {
+        "en": "Latvia",
+        "ja": "ラトビア",
+        "zh": "拉脱维亚",
+        "fr": "Lettonie",
+        "es": "Letonia",
+        "pt": "Letônia",
+        "ar": "لاتفيا",
+        "th": "ลัตเวีย",
+        "vi": "Latvia",
+        "id": "Latvia",
+        "ru": "Латвия"
+      },
+      "colors": ["red", "white"],
+      "symbols": []
+    },
+    {
+      "code": "MAR",
+      "code2": "MA",
+      "names": {
+        "en": "Morocco",
+        "ja": "モロッコ",
+        "zh": "摩洛哥",
+        "fr": "Maroc",
+        "es": "Marruecos",
+        "pt": "Marrocos",
+        "ar": "المغرب",
+        "th": "โมร็อกโก",
+        "vi": "Ma Rốc",
+        "id": "Maroko",
+        "ru": "Марокко"
+      },
+      "colors": ["red", "green"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "MCO",
+      "code2": "MC",
+      "names": {
+        "en": "Monaco",
+        "ja": "モナコ",
+        "zh": "摩纳哥",
+        "fr": "Monaco",
+        "es": "Mónaco",
+        "pt": "Mônaco",
+        "ar": "موناكو",
+        "th": "โมนาโก",
+        "vi": "Monaco",
+        "id": "Monako",
+        "ru": "Монако"
+      },
+      "colors": ["red", "white"],
+      "symbols": []
+    },
+    {
+      "code": "MDA",
+      "code2": "MD",
+      "names": {
+        "en": "Moldova",
+        "ja": "モルドバ",
+        "zh": "摩尔多瓦",
+        "fr": "Moldavie",
+        "es": "Moldavia",
+        "pt": "Moldávia",
+        "ar": "مولدوفا",
+        "th": "มอลโดวา",
+        "vi": "Moldova",
+        "id": "Moldova",
+        "ru": "Молдова"
+      },
+      "colors": ["blue", "yellow", "red"],
+      "symbols": ["animal", "emblem"]
+    },
+    {
+      "code": "MDG",
+      "code2": "MG",
+      "names": {
+        "en": "Madagascar",
+        "ja": "マダガスカル",
+        "zh": "马达加斯加",
+        "fr": "Madagascar",
+        "es": "Madagascar",
+        "pt": "Madagascar",
+        "ar": "مدغشقر",
+        "th": "มาดากัสการ์",
+        "vi": "Madagascar",
+        "id": "Madagaskar",
+        "ru": "Мадагаскар"
+      },
+      "colors": ["white", "red", "green"],
+      "symbols": []
+    },
+    {
+      "code": "MDV",
+      "code2": "MV",
+      "names": {
+        "en": "Maldives",
+        "ja": "モルディブ",
+        "zh": "马尔代夫",
+        "fr": "Maldives",
+        "es": "Maldivas",
+        "pt": "Maldivas",
+        "ar": "جزر المالديف",
+        "th": "มัลดีฟส์",
+        "vi": "Maldives",
+        "id": "Maladewa",
+        "ru": "Мальдивы"
+      },
+      "colors": ["red", "green", "white"],
+      "symbols": ["moon"]
+    },
+    {
+      "code": "MEX",
+      "code2": "MX",
+      "names": {
+        "en": "Mexico",
+        "ja": "メキシコ",
+        "zh": "墨西哥",
+        "fr": "Mexique",
+        "es": "México",
+        "pt": "México",
+        "ar": "المكسيك",
+        "th": "เม็กซิโก",
+        "vi": "Mexico",
+        "id": "Meksiko",
+        "ru": "Мексика"
+      },
+      "colors": ["green", "white", "red"],
+      "symbols": ["animal", "emblem"]
+    },
+    {
+      "code": "MHL",
+      "code2": "MH",
+      "names": {
+        "en": "Marshall Islands",
+        "ja": "マーシャル諸島",
+        "zh": "马绍尔群岛",
+        "fr": "Îles Marshall",
+        "es": "Islas Marshall",
+        "pt": "Ilhas Marshall",
+        "ar": "جزر مارشال",
+        "th": "หมู่เกาะมาร์แชลล์",
+        "vi": "Quần đảo Marshall",
+        "id": "Kepulauan Marshall",
+        "ru": "Маршалловы Острова"
+      },
+      "colors": ["blue", "orange", "white"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "MKD",
+      "code2": "MK",
+      "names": {
+        "en": "North Macedonia",
+        "ja": "北マケドニア",
+        "zh": "北马其顿",
+        "fr": "Macédoine du Nord",
+        "es": "Macedonia del Norte",
+        "pt": "Macedônia do Norte",
+        "ar": "مقدونيا الشمالية",
+        "th": "มาซิโดเนียเหนือ",
+        "vi": "Bắc Macedonia",
+        "id": "Makedonia Utara",
+        "ru": "Северная Македония"
+      },
+      "colors": ["red", "yellow"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "MLI",
+      "code2": "ML",
+      "names": {
+        "en": "Mali",
+        "ja": "マリ",
+        "zh": "马里",
+        "fr": "Mali",
+        "es": "Malí",
+        "pt": "Mali",
+        "ar": "مالي",
+        "th": "มาลี",
+        "vi": "Mali",
+        "id": "Mali",
+        "ru": "Мали"
+      },
+      "colors": ["green", "yellow", "red"],
+      "symbols": []
+    },
+    {
+      "code": "MLT",
+      "code2": "MT",
+      "names": {
+        "en": "Malta",
+        "ja": "マルタ",
+        "zh": "马耳他",
+        "fr": "Malte",
+        "es": "Malta",
+        "pt": "Malta",
+        "ar": "مالطا",
+        "th": "มอลตา",
+        "vi": "Malta",
+        "id": "Malta",
+        "ru": "Мальта"
+      },
+      "colors": ["white", "red"],
+      "symbols": ["cross"]
+    },
+    {
+      "code": "MMR",
+      "code2": "MM",
+      "names": {
+        "en": "Myanmar",
+        "ja": "ミャンマー",
+        "zh": "缅甸",
+        "fr": "Myanmar",
+        "es": "Myanmar",
+        "pt": "Myanmar",
+        "ar": "ميانمار",
+        "th": "เมียนมา",
+        "vi": "Myanmar",
+        "id": "Myanmar",
+        "ru": "Мьянма"
+      },
+      "colors": ["yellow", "green", "red", "white"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "MNE",
+      "code2": "ME",
+      "names": {
+        "en": "Montenegro",
+        "ja": "モンテネグロ",
+        "zh": "黑山",
+        "fr": "Monténégro",
+        "es": "Montenegro",
+        "pt": "Montenegro",
+        "ar": "الجبل الأسود",
+        "th": "มอนเตเนโกร",
+        "vi": "Montenegro",
+        "id": "Montenegro",
+        "ru": "Черногория"
+      },
+      "colors": ["red", "yellow"],
+      "symbols": ["animal", "emblem"]
+    },
+    {
+      "code": "MNG",
+      "code2": "MN",
+      "names": {
+        "en": "Mongolia",
+        "ja": "モンゴル",
+        "zh": "蒙古",
+        "fr": "Mongolie",
+        "es": "Mongolia",
+        "pt": "Mongólia",
+        "ar": "منغوليا",
+        "th": "มองโกเลีย",
+        "vi": "Mông Cổ",
+        "id": "Mongolia",
+        "ru": "Монголия"
+      },
+      "colors": ["red", "blue", "yellow"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "MOZ",
+      "code2": "MZ",
+      "names": {
+        "en": "Mozambique",
+        "ja": "モザンビーク",
+        "zh": "莫桑比克",
+        "fr": "Mozambique",
+        "es": "Mozambique",
+        "pt": "Moçambique",
+        "ar": "موزمبيق",
+        "th": "โมซัมบิก",
+        "vi": "Mozambique",
+        "id": "Mozambik",
+        "ru": "Мозамбик"
+      },
+      "colors": ["green", "black", "yellow", "red", "white"],
+      "symbols": ["star", "emblem"]
+    },
+    {
+      "code": "MRT",
+      "code2": "MR",
+      "names": {
+        "en": "Mauritania",
+        "ja": "モーリタニア",
+        "zh": "毛里塔尼亚",
+        "fr": "Mauritanie",
+        "es": "Mauritania",
+        "pt": "Mauritânia",
+        "ar": "موريتانيا",
+        "th": "มอริเตเนีย",
+        "vi": "Mauritanie",
+        "id": "Mauritania",
+        "ru": "Мавритания"
+      },
+      "colors": ["green", "yellow", "red"],
+      "symbols": ["moon", "star"]
+    },
+    {
+      "code": "MUS",
+      "code2": "MU",
+      "names": {
+        "en": "Mauritius",
+        "ja": "モーリシャス",
+        "zh": "毛里求斯",
+        "fr": "Maurice",
+        "es": "Mauricio",
+        "pt": "Maurícia",
+        "ar": "موريشيوس",
+        "th": "มอริเชียส",
+        "vi": "Mauritius",
+        "id": "Mauritius",
+        "ru": "Маврикий"
+      },
+      "colors": ["red", "blue", "yellow", "green"],
+      "symbols": []
+    },
+    {
+      "code": "MWI",
+      "code2": "MW",
+      "names": {
+        "en": "Malawi",
+        "ja": "マラウイ",
+        "zh": "马拉维",
+        "fr": "Malawi",
+        "es": "Malaui",
+        "pt": "Malawi",
+        "ar": "مالاوي",
+        "th": "มาลาวี",
+        "vi": "Malawi",
+        "id": "Malawi",
+        "ru": "Малави"
+      },
+      "colors": ["black", "red", "green"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "MYS",
+      "code2": "MY",
+      "names": {
+        "en": "Malaysia",
+        "ja": "マレーシア",
+        "zh": "马来西亚",
+        "fr": "Malaisie",
+        "es": "Malasia",
+        "pt": "Malásia",
+        "ar": "ماليزيا",
+        "th": "มาเลเซีย",
+        "vi": "Malaysia",
+        "id": "Malaysia",
+        "ru": "Малайзия"
+      },
+      "colors": ["red", "white", "blue", "yellow"],
+      "symbols": ["star", "moon"]
+    },
+    {
+      "code": "NAM",
+      "code2": "NA",
+      "names": {
+        "en": "Namibia",
+        "ja": "ナミビア",
+        "zh": "纳米比亚",
+        "fr": "Namibie",
+        "es": "Namibia",
+        "pt": "Namíbia",
+        "ar": "ناميبيا",
+        "th": "นามิเบีย",
+        "vi": "Namibia",
+        "id": "Namibia",
+        "ru": "Намибия"
+      },
+      "colors": ["blue", "red", "green", "yellow", "white"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "NER",
+      "code2": "NE",
+      "names": {
+        "en": "Niger",
+        "ja": "ニジェール",
+        "zh": "尼日尔",
+        "fr": "Niger",
+        "es": "Níger",
+        "pt": "Níger",
+        "ar": "النيجر",
+        "th": "ไนเจอร์",
+        "vi": "Niger",
+        "id": "Niger",
+        "ru": "Нигер"
+      },
+      "colors": ["orange", "white", "green"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "NGA",
+      "code2": "NG",
+      "names": {
+        "en": "Nigeria",
+        "ja": "ナイジェリア",
+        "zh": "尼日利亚",
+        "fr": "Nigeria",
+        "es": "Nigeria",
+        "pt": "Nigéria",
+        "ar": "نيجيريا",
+        "th": "ไนจีเรีย",
+        "vi": "Nigeria",
+        "id": "Nigeria",
+        "ru": "Нигерия"
+      },
+      "colors": ["green", "white"],
+      "symbols": []
+    },
+    {
+      "code": "NIC",
+      "code2": "NI",
+      "names": {
+        "en": "Nicaragua",
+        "ja": "ニカラグア",
+        "zh": "尼加拉瓜",
+        "fr": "Nicaragua",
+        "es": "Nicaragua",
+        "pt": "Nicarágua",
+        "ar": "نيكاراغوا",
+        "th": "นิการากัว",
+        "vi": "Nicaragua",
+        "id": "Nikaragua",
+        "ru": "Никарагуа"
+      },
+      "colors": ["blue", "white"],
+      "symbols": ["emblem", "triangle"]
+    },
+    {
+      "code": "NLD",
+      "code2": "NL",
+      "names": {
+        "en": "Netherlands",
+        "ja": "オランダ",
+        "zh": "荷兰",
+        "fr": "Pays-Bas",
+        "es": "Países Bajos",
+        "pt": "Países Baixos",
+        "ar": "هولندا",
+        "th": "เนเธอร์แลนด์",
+        "vi": "Hà Lan",
+        "id": "Belanda",
+        "ru": "Нидерланды"
+      },
+      "colors": ["red", "white", "blue"],
+      "symbols": []
+    },
+    {
+      "code": "NOR",
+      "code2": "NO",
+      "names": {
+        "en": "Norway",
+        "ja": "ノルウェー",
+        "zh": "挪威",
+        "fr": "Norvège",
+        "es": "Noruega",
+        "pt": "Noruega",
+        "ar": "النرويج",
+        "th": "นอร์เวย์",
+        "vi": "Na Uy",
+        "id": "Norwegia",
+        "ru": "Норвегия"
+      },
+      "colors": ["red", "white", "blue"],
+      "symbols": ["cross"]
+    },
+    {
+      "code": "NPL",
+      "code2": "NP",
+      "names": {
+        "en": "Nepal",
+        "ja": "ネパール",
+        "zh": "尼泊尔",
+        "fr": "Népal",
+        "es": "Nepal",
+        "pt": "Nepal",
+        "ar": "نيبال",
+        "th": "เนปาล",
+        "vi": "Nepal",
+        "id": "Nepal",
+        "ru": "Непал"
+      },
+      "colors": ["red", "blue", "white"],
+      "symbols": ["moon", "triangle"]
+    },
+    {
+      "code": "NRU",
+      "code2": "NR",
+      "names": {
+        "en": "Nauru",
+        "ja": "ナウル",
+        "zh": "瑙鲁",
+        "fr": "Nauru",
+        "es": "Nauru",
+        "pt": "Nauru",
+        "ar": "ناورو",
+        "th": "นาอูรู",
+        "vi": "Nauru",
+        "id": "Nauru",
+        "ru": "Науру"
+      },
+      "colors": ["blue", "yellow", "white"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "NZL",
+      "code2": "NZ",
+      "names": {
+        "en": "New Zealand",
+        "ja": "ニュージーランド",
+        "zh": "新西兰",
+        "fr": "Nouvelle-Zélande",
+        "es": "Nueva Zelanda",
+        "pt": "Nova Zelândia",
+        "ar": "نيوزيلندا",
+        "th": "นิวซีแลนด์",
+        "vi": "New Zealand",
+        "id": "Selandia Baru",
+        "ru": "Новая Зеландия"
+      },
+      "colors": ["blue", "red", "white"],
+      "symbols": ["star", "cross"]
+    },
+    {
+      "code": "OMN",
+      "code2": "OM",
+      "names": {
+        "en": "Oman",
+        "ja": "オマーン",
+        "zh": "阿曼",
+        "fr": "Oman",
+        "es": "Omán",
+        "pt": "Omã",
+        "ar": "عُمان",
+        "th": "โอมาน",
+        "vi": "Oman",
+        "id": "Oman",
+        "ru": "Оман"
+      },
+      "colors": ["red", "white", "green"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "PAK",
+      "code2": "PK",
+      "names": {
+        "en": "Pakistan",
+        "ja": "パキスタン",
+        "zh": "巴基斯坦",
+        "fr": "Pakistan",
+        "es": "Pakistán",
+        "pt": "Paquistão",
+        "ar": "باكستان",
+        "th": "ปากีสถาน",
+        "vi": "Pakistan",
+        "id": "Pakistan",
+        "ru": "Пакистан"
+      },
+      "colors": ["green", "white"],
+      "symbols": ["star", "moon"]
+    },
+    {
+      "code": "PAN",
+      "code2": "PA",
+      "names": {
+        "en": "Panama",
+        "ja": "パナマ",
+        "zh": "巴拿马",
+        "fr": "Panama",
+        "es": "Panamá",
+        "pt": "Panamá",
+        "ar": "بنما",
+        "th": "ปานามา",
+        "vi": "Panama",
+        "id": "Panama",
+        "ru": "Панама"
+      },
+      "colors": ["red", "blue", "white"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "PER",
+      "code2": "PE",
+      "names": {
+        "en": "Peru",
+        "ja": "ペルー",
+        "zh": "秘鲁",
+        "fr": "Pérou",
+        "es": "Perú",
+        "pt": "Peru",
+        "ar": "بيرو",
+        "th": "เปรู",
+        "vi": "Peru",
+        "id": "Peru",
+        "ru": "Перу"
+      },
+      "colors": ["red", "white"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "PHL",
+      "code2": "PH",
+      "names": {
+        "en": "Philippines",
+        "ja": "フィリピン",
+        "zh": "菲律宾",
+        "fr": "Philippines",
+        "es": "Filipinas",
+        "pt": "Filipinas",
+        "ar": "الفلبين",
+        "th": "ฟิลิปปินส์",
+        "vi": "Philippines",
+        "id": "Filipina",
+        "ru": "Филиппины"
+      },
+      "colors": ["blue", "red", "white", "yellow"],
+      "symbols": ["star", "triangle"]
+    },
+    {
+      "code": "PLW",
+      "code2": "PW",
+      "names": {
+        "en": "Palau",
+        "ja": "パラオ",
+        "zh": "帕劳",
+        "fr": "Palaos",
+        "es": "Palaos",
+        "pt": "Palau",
+        "ar": "بالاو",
+        "th": "ปาเลา",
+        "vi": "Palau",
+        "id": "Palau",
+        "ru": "Палау"
+      },
+      "colors": ["blue", "yellow"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "PNG",
+      "code2": "PG",
+      "names": {
+        "en": "Papua New Guinea",
+        "ja": "パプアニューギニア",
+        "zh": "巴布亚新几内亚",
+        "fr": "Papouasie-Nouvelle-Guinée",
+        "es": "Papúa Nueva Guinea",
+        "pt": "Papua-Nova Guiné",
+        "ar": "بابوا غينيا الجديدة",
+        "th": "ปาปัวนิวกินี",
+        "vi": "Papua New Guinea",
+        "id": "Papua Nugini",
+        "ru": "Папуа — Новая Гвинея"
+      },
+      "colors": ["red", "black", "yellow", "white"],
+      "symbols": ["star", "animal"]
+    },
+    {
+      "code": "POL",
+      "code2": "PL",
+      "names": {
+        "en": "Poland",
+        "ja": "ポーランド",
+        "zh": "波兰",
+        "fr": "Pologne",
+        "es": "Polonia",
+        "pt": "Polônia",
+        "ar": "بولندا",
+        "th": "โปแลนด์",
+        "vi": "Ba Lan",
+        "id": "Polandia",
+        "ru": "Польша"
+      },
+      "colors": ["white", "red"],
+      "symbols": []
+    },
+    {
+      "code": "PRI",
+      "code2": "PR",
+      "names": {
+        "en": "Puerto Rico",
+        "ja": "プエルトリコ",
+        "zh": "波多黎各",
+        "fr": "Porto Rico",
+        "es": "Puerto Rico",
+        "pt": "Porto Rico",
+        "ar": "بورتوريكو",
+        "th": "เปอร์โตริโก",
+        "vi": "Puerto Rico",
+        "id": "Puerto Riko",
+        "ru": "Пуэрто-Рико"
+      },
+      "colors": ["red", "white", "blue"],
+      "symbols": ["star", "triangle"]
+    },
+    {
+      "code": "PRK",
+      "code2": "KP",
+      "names": {
+        "en": "North Korea",
+        "ja": "北朝鮮",
+        "zh": "朝鲜",
+        "fr": "Corée du Nord",
+        "es": "Corea del Norte",
+        "pt": "Coreia do Norte",
+        "ar": "كوريا الشمالية",
+        "th": "เกาหลีเหนือ",
+        "vi": "Triều Tiên",
+        "id": "Korea Utara",
+        "ru": "КНДР"
+      },
+      "colors": ["blue", "red", "white"],
+      "symbols": ["star", "circle"]
+    },
+    {
+      "code": "PRT",
+      "code2": "PT",
+      "names": {
+        "en": "Portugal",
+        "ja": "ポルトガル",
+        "zh": "葡萄牙",
+        "fr": "Portugal",
+        "es": "Portugal",
+        "pt": "Portugal",
+        "ar": "البرتغال",
+        "th": "โปรตุเกส",
+        "vi": "Bồ Đào Nha",
+        "id": "Portugal",
+        "ru": "Португалия"
+      },
+      "colors": ["green", "red", "yellow", "white", "blue"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "PRY",
+      "code2": "PY",
+      "names": {
+        "en": "Paraguay",
+        "ja": "パラグアイ",
+        "zh": "巴拉圭",
+        "fr": "Paraguay",
+        "es": "Paraguay",
+        "pt": "Paraguai",
+        "ar": "باراغواي",
+        "th": "ปารากวัย",
+        "vi": "Paraguay",
+        "id": "Paraguay",
+        "ru": "Парагвай"
+      },
+      "colors": ["red", "white", "blue"],
+      "symbols": ["emblem", "star"]
+    },
+    {
+      "code": "PSE",
+      "code2": "PS",
+      "names": {
+        "en": "Palestine",
+        "ja": "パレスチナ",
+        "zh": "巴勒斯坦",
+        "fr": "Palestine",
+        "es": "Palestina",
+        "pt": "Palestina",
+        "ar": "فلسطين",
+        "th": "ปาเลสไตน์",
+        "vi": "Palestine",
+        "id": "Palestina",
+        "ru": "Палестина"
+      },
+      "colors": ["black", "white", "green", "red"],
+      "symbols": ["triangle"]
+    },
+    {
+      "code": "QAT",
+      "code2": "QA",
+      "names": {
+        "en": "Qatar",
+        "ja": "カタール",
+        "zh": "卡塔尔",
+        "fr": "Qatar",
+        "es": "Catar",
+        "pt": "Catar",
+        "ar": "قطر",
+        "th": "กาตาร์",
+        "vi": "Qatar",
+        "id": "Qatar",
+        "ru": "Катар"
+      },
+      "colors": ["white", "purple"],
+      "symbols": []
+    },
+    {
+      "code": "ROU",
+      "code2": "RO",
+      "names": {
+        "en": "Romania",
+        "ja": "ルーマニア",
+        "zh": "罗马尼亚",
+        "fr": "Roumanie",
+        "es": "Rumania",
+        "pt": "Romênia",
+        "ar": "رومانيا",
+        "th": "โรมาเนีย",
+        "vi": "România",
+        "id": "Rumania",
+        "ru": "Румыния"
+      },
+      "colors": ["blue", "yellow", "red"],
+      "symbols": []
+    },
+    {
+      "code": "RUS",
+      "code2": "RU",
+      "names": {
+        "en": "Russia",
+        "ja": "ロシア",
+        "zh": "俄罗斯",
+        "fr": "Russie",
+        "es": "Rusia",
+        "pt": "Rússia",
+        "ar": "روسيا",
+        "th": "รัสเซีย",
+        "vi": "Nga",
+        "id": "Rusia",
+        "ru": "Россия"
+      },
+      "colors": ["white", "blue", "red"],
+      "symbols": []
+    },
+    {
+      "code": "RWA",
+      "code2": "RW",
+      "names": {
+        "en": "Rwanda",
+        "ja": "ルワンダ",
+        "zh": "卢旺达",
+        "fr": "Rwanda",
+        "es": "Ruanda",
+        "pt": "Ruanda",
+        "ar": "رواندا",
+        "th": "รวันดา",
+        "vi": "Rwanda",
+        "id": "Rwanda",
+        "ru": "Руанда"
+      },
+      "colors": ["blue", "yellow", "green"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "SAU",
+      "code2": "SA",
+      "names": {
+        "en": "Saudi Arabia",
+        "ja": "サウジアラビア",
+        "zh": "沙特阿拉伯",
+        "fr": "Arabie saoudite",
+        "es": "Arabia Saudita",
+        "pt": "Arábia Saudita",
+        "ar": "المملكة العربية السعودية",
+        "th": "ซาอุดีอาระเบีย",
+        "vi": "Ả Rập Xê Út",
+        "id": "Arab Saudi",
+        "ru": "Саудовская Аравия"
+      },
+      "colors": ["green", "white"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "SDN",
+      "code2": "SD",
+      "names": {
+        "en": "Sudan",
+        "ja": "スーダン",
+        "zh": "苏丹",
+        "fr": "Soudan",
+        "es": "Sudán",
+        "pt": "Sudão",
+        "ar": "السودان",
+        "th": "ซูดาน",
+        "vi": "Sudan",
+        "id": "Sudan",
+        "ru": "Судан"
+      },
+      "colors": ["red", "white", "black", "green"],
+      "symbols": ["triangle"]
+    },
+    {
+      "code": "SEN",
+      "code2": "SN",
+      "names": {
+        "en": "Senegal",
+        "ja": "セネガル",
+        "zh": "塞内加尔",
+        "fr": "Sénégal",
+        "es": "Senegal",
+        "pt": "Senegal",
+        "ar": "السنغال",
+        "th": "เซเนกัล",
+        "vi": "Senegal",
+        "id": "Senegal",
+        "ru": "Сенегал"
+      },
+      "colors": ["green", "yellow", "red"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "SGP",
+      "code2": "SG",
+      "names": {
+        "en": "Singapore",
+        "ja": "シンガポール",
+        "zh": "新加坡",
+        "fr": "Singapour",
+        "es": "Singapur",
+        "pt": "Singapura",
+        "ar": "سنغافورة",
+        "th": "สิงคโปร์",
+        "vi": "Singapore",
+        "id": "Singapura",
+        "ru": "Сингапур"
+      },
+      "colors": ["red", "white"],
+      "symbols": ["star", "moon"]
+    },
+    {
+      "code": "SLB",
+      "code2": "SB",
+      "names": {
+        "en": "Solomon Islands",
+        "ja": "ソロモン諸島",
+        "zh": "所罗门群岛",
+        "fr": "Îles Salomon",
+        "es": "Islas Salomón",
+        "pt": "Ilhas Salomão",
+        "ar": "جزر سليمان",
+        "th": "หมู่เกาะโซโลมอน",
+        "vi": "Quần đảo Solomon",
+        "id": "Kepulauan Solomon",
+        "ru": "Соломоновы Острова"
+      },
+      "colors": ["blue", "green", "yellow", "white"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "SLE",
+      "code2": "SL",
+      "names": {
+        "en": "Sierra Leone",
+        "ja": "シエラレオネ",
+        "zh": "塞拉利昂",
+        "fr": "Sierra Leone",
+        "es": "Sierra Leona",
+        "pt": "Serra Leoa",
+        "ar": "سيراليون",
+        "th": "เซียร์ราลีโอน",
+        "vi": "Sierra Leone",
+        "id": "Sierra Leone",
+        "ru": "Сьерра-Леоне"
+      },
+      "colors": ["green", "white", "blue"],
+      "symbols": []
+    },
+    {
+      "code": "SLV",
+      "code2": "SV",
+      "names": {
+        "en": "El Salvador",
+        "ja": "エルサルバドル",
+        "zh": "萨尔瓦多",
+        "fr": "Salvador",
+        "es": "El Salvador",
+        "pt": "El Salvador",
+        "ar": "السلفادور",
+        "th": "เอลซัลวาดอร์",
+        "vi": "El Salvador",
+        "id": "El Salvador",
+        "ru": "Сальвадор"
+      },
+      "colors": ["blue", "white"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "SMR",
+      "code2": "SM",
+      "names": {
+        "en": "San Marino",
+        "ja": "サンマリノ",
+        "zh": "圣马力诺",
+        "fr": "Saint-Marin",
+        "es": "San Marino",
+        "pt": "San Marino",
+        "ar": "سان مارينو",
+        "th": "ซานมารีโน",
+        "vi": "San Marino",
+        "id": "San Marino",
+        "ru": "Сан-Марино"
+      },
+      "colors": ["white", "blue"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "SOM",
+      "code2": "SO",
+      "names": {
+        "en": "Somalia",
+        "ja": "ソマリア",
+        "zh": "索马里",
+        "fr": "Somalie",
+        "es": "Somalia",
+        "pt": "Somália",
+        "ar": "الصومال",
+        "th": "โซมาเลีย",
+        "vi": "Somalia",
+        "id": "Somalia",
+        "ru": "Сомали"
+      },
+      "colors": ["blue", "white"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "SRB",
+      "code2": "RS",
+      "names": {
+        "en": "Serbia",
+        "ja": "セルビア",
+        "zh": "塞尔维亚",
+        "fr": "Serbie",
+        "es": "Serbia",
+        "pt": "Sérvia",
+        "ar": "صربيا",
+        "th": "เซอร์เบีย",
+        "vi": "Serbia",
+        "id": "Serbia",
+        "ru": "Сербия"
+      },
+      "colors": ["red", "blue", "white"],
+      "symbols": ["emblem", "cross"]
+    },
+    {
+      "code": "SSD",
+      "code2": "SS",
+      "names": {
+        "en": "South Sudan",
+        "ja": "南スーダン",
+        "zh": "南苏丹",
+        "fr": "Soudan du Sud",
+        "es": "Sudán del Sur",
+        "pt": "Sudão do Sul",
+        "ar": "جنوب السودان",
+        "th": "ซูดานใต้",
+        "vi": "Nam Sudan",
+        "id": "Sudan Selatan",
+        "ru": "Южный Судан"
+      },
+      "colors": ["black", "red", "green", "white", "blue", "yellow"],
+      "symbols": ["star", "triangle"]
+    },
+    {
+      "code": "STP",
+      "code2": "ST",
+      "names": {
+        "en": "São Tomé and Príncipe",
+        "ja": "サントメ・プリンシペ",
+        "zh": "圣多美和普林西比",
+        "fr": "Sao Tomé-et-Príncipe",
+        "es": "Santo Tomé y Príncipe",
+        "pt": "São Tomé e Príncipe",
+        "ar": "ساو تومي وبرينسيبي",
+        "th": "เซาตูเมและปรินซิปี",
+        "vi": "São Tomé và Príncipe",
+        "id": "São Tomé dan Príncipe",
+        "ru": "Сан-Томе и Принсипи"
+      },
+      "colors": ["green", "yellow", "red", "black"],
+      "symbols": ["star", "triangle"]
+    },
+    {
+      "code": "SUR",
+      "code2": "SR",
+      "names": {
+        "en": "Suriname",
+        "ja": "スリナム",
+        "zh": "苏里南",
+        "fr": "Suriname",
+        "es": "Surinam",
+        "pt": "Suriname",
+        "ar": "سورينام",
+        "th": "ซูรินาม",
+        "vi": "Suriname",
+        "id": "Suriname",
+        "ru": "Суринам"
+      },
+      "colors": ["green", "white", "red", "yellow"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "SVK",
+      "code2": "SK",
+      "names": {
+        "en": "Slovakia",
+        "ja": "スロバキア",
+        "zh": "斯洛伐克",
+        "fr": "Slovaquie",
+        "es": "Eslovaquia",
+        "pt": "Eslováquia",
+        "ar": "سلوفاكيا",
+        "th": "สโลวาเกีย",
+        "vi": "Slovakia",
+        "id": "Slovakia",
+        "ru": "Словакия"
+      },
+      "colors": ["white", "blue", "red"],
+      "symbols": ["cross", "emblem"]
+    },
+    {
+      "code": "SVN",
+      "code2": "SI",
+      "names": {
+        "en": "Slovenia",
+        "ja": "スロベニア",
+        "zh": "斯洛文尼亚",
+        "fr": "Slovénie",
+        "es": "Eslovenia",
+        "pt": "Eslovênia",
+        "ar": "سلوفينيا",
+        "th": "สโลวีเนีย",
+        "vi": "Slovenia",
+        "id": "Slovenia",
+        "ru": "Словения"
+      },
+      "colors": ["white", "blue", "red"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "SWE",
+      "code2": "SE",
+      "names": {
+        "en": "Sweden",
+        "ja": "スウェーデン",
+        "zh": "瑞典",
+        "fr": "Suède",
+        "es": "Suecia",
+        "pt": "Suécia",
+        "ar": "السويد",
+        "th": "สวีเดน",
+        "vi": "Thụy Điển",
+        "id": "Swedia",
+        "ru": "Швеция"
+      },
+      "colors": ["blue", "yellow"],
+      "symbols": ["cross"]
+    },
+    {
+      "code": "SWZ",
+      "code2": "SZ",
+      "names": {
+        "en": "Eswatini",
+        "ja": "エスワティニ",
+        "zh": "斯威士兰",
+        "fr": "Eswatini",
+        "es": "Esuatini",
+        "pt": "Essuatíni",
+        "ar": "إسواتيني",
+        "th": "เอสวาตีนี",
+        "vi": "Eswatini",
+        "id": "Eswatini",
+        "ru": "Эсватини"
+      },
+      "colors": ["blue", "yellow", "red", "black", "white"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "SYC",
+      "code2": "SC",
+      "names": {
+        "en": "Seychelles",
+        "ja": "セーシェル",
+        "zh": "塞舌尔",
+        "fr": "Seychelles",
+        "es": "Seychelles",
+        "pt": "Seicheles",
+        "ar": "سيشل",
+        "th": "เซเชลส์",
+        "vi": "Seychelles",
+        "id": "Seychelles",
+        "ru": "Сейшелы"
+      },
+      "colors": ["blue", "yellow", "red", "white", "green"],
+      "symbols": []
+    },
+    {
+      "code": "SYR",
+      "code2": "SY",
+      "names": {
+        "en": "Syria",
+        "ja": "シリア",
+        "zh": "叙利亚",
+        "fr": "Syrie",
+        "es": "Siria",
+        "pt": "Síria",
+        "ar": "سوريا",
+        "th": "ซีเรีย",
+        "vi": "Syria",
+        "id": "Suriah",
+        "ru": "Сирия"
+      },
+      "colors": ["red", "white", "black", "green"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "TCD",
+      "code2": "TD",
+      "names": {
+        "en": "Chad",
+        "ja": "チャド",
+        "zh": "乍得",
+        "fr": "Tchad",
+        "es": "Chad",
+        "pt": "Chade",
+        "ar": "تشاد",
+        "th": "ชาด",
+        "vi": "Tchad",
+        "id": "Chad",
+        "ru": "Чад"
+      },
+      "colors": ["blue", "yellow", "red"],
+      "symbols": []
+    },
+    {
+      "code": "TGO",
+      "code2": "TG",
+      "names": {
+        "en": "Togo",
+        "ja": "トーゴ",
+        "zh": "多哥",
+        "fr": "Togo",
+        "es": "Togo",
+        "pt": "Togo",
+        "ar": "توغو",
+        "th": "โตโก",
+        "vi": "Togo",
+        "id": "Togo",
+        "ru": "Того"
+      },
+      "colors": ["green", "yellow", "red", "white"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "THA",
+      "code2": "TH",
+      "names": {
+        "en": "Thailand",
+        "ja": "タイ",
+        "zh": "泰国",
+        "fr": "Thaïlande",
+        "es": "Tailandia",
+        "pt": "Tailândia",
+        "ar": "تايلاند",
+        "th": "ประเทศไทย",
+        "vi": "Thái Lan",
+        "id": "Thailand",
+        "ru": "Таиланд"
+      },
+      "colors": ["red", "white", "blue"],
+      "symbols": []
+    },
+    {
+      "code": "TJK",
+      "code2": "TJ",
+      "names": {
+        "en": "Tajikistan",
+        "ja": "タジキスタン",
+        "zh": "塔吉克斯坦",
+        "fr": "Tadjikistan",
+        "es": "Tayikistán",
+        "pt": "Tajiquistão",
+        "ar": "طاجيكستان",
+        "th": "ทาจิกิสถาน",
+        "vi": "Tajikistan",
+        "id": "Tajikistan",
+        "ru": "Таджикистан"
+      },
+      "colors": ["red", "white", "green", "yellow"],
+      "symbols": ["emblem", "star"]
+    },
+    {
+      "code": "TKM",
+      "code2": "TM",
+      "names": {
+        "en": "Turkmenistan",
+        "ja": "トルクメニスタン",
+        "zh": "土库曼斯坦",
+        "fr": "Turkménistan",
+        "es": "Turkmenistán",
+        "pt": "Turquemenistão",
+        "ar": "تركمانستان",
+        "th": "เติร์กเมนิสถาน",
+        "vi": "Turkmenistan",
+        "id": "Turkmenistan",
+        "ru": "Туркменистан"
+      },
+      "colors": ["green", "red", "white"],
+      "symbols": ["moon", "star", "emblem"]
+    },
+    {
+      "code": "TLS",
+      "code2": "TL",
+      "names": {
+        "en": "Timor-Leste",
+        "ja": "東ティモール",
+        "zh": "东帝汶",
+        "fr": "Timor oriental",
+        "es": "Timor Oriental",
+        "pt": "Timor-Leste",
+        "ar": "تيمور الشرقية",
+        "th": "ติมอร์-เลสเต",
+        "vi": "Đông Timor",
+        "id": "Timor-Leste",
+        "ru": "Восточный Тимор"
+      },
+      "colors": ["red", "yellow", "black", "white"],
+      "symbols": ["star", "triangle"]
+    },
+    {
+      "code": "TON",
+      "code2": "TO",
+      "names": {
+        "en": "Tonga",
+        "ja": "トンガ",
+        "zh": "汤加",
+        "fr": "Tonga",
+        "es": "Tonga",
+        "pt": "Tonga",
+        "ar": "تونغا",
+        "th": "ตองกา",
+        "vi": "Tonga",
+        "id": "Tonga",
+        "ru": "Тонга"
+      },
+      "colors": ["red", "white"],
+      "symbols": ["cross"]
+    },
+    {
+      "code": "TTO",
+      "code2": "TT",
+      "names": {
+        "en": "Trinidad and Tobago",
+        "ja": "トリニダード・トバゴ",
+        "zh": "特立尼达和多巴哥",
+        "fr": "Trinité-et-Tobago",
+        "es": "Trinidad y Tobago",
+        "pt": "Trinidad e Tobago",
+        "ar": "ترينيداد وتوباغو",
+        "th": "ตรินิแดดและโตเบโก",
+        "vi": "Trinidad và Tobago",
+        "id": "Trinidad dan Tobago",
+        "ru": "Тринидад и Тобаго"
+      },
+      "colors": ["red", "white", "black"],
+      "symbols": []
+    },
+    {
+      "code": "TUN",
+      "code2": "TN",
+      "names": {
+        "en": "Tunisia",
+        "ja": "チュニジア",
+        "zh": "突尼斯",
+        "fr": "Tunisie",
+        "es": "Túnez",
+        "pt": "Tunísia",
+        "ar": "تونس",
+        "th": "ตูนิเซีย",
+        "vi": "Tunisia",
+        "id": "Tunisia",
+        "ru": "Тунис"
+      },
+      "colors": ["red", "white"],
+      "symbols": ["star", "moon", "circle"]
+    },
+    {
+      "code": "TUR",
+      "code2": "TR",
+      "names": {
+        "en": "Turkey",
+        "ja": "トルコ",
+        "zh": "土耳其",
+        "fr": "Turquie",
+        "es": "Turquía",
+        "pt": "Turquia",
+        "ar": "تركيا",
+        "th": "ตุรกี",
+        "vi": "Thổ Nhĩ Kỳ",
+        "id": "Turki",
+        "ru": "Турция"
+      },
+      "colors": ["red", "white"],
+      "symbols": ["star", "moon"]
+    },
+    {
+      "code": "TUV",
+      "code2": "TV",
+      "names": {
+        "en": "Tuvalu",
+        "ja": "ツバル",
+        "zh": "图瓦卢",
+        "fr": "Tuvalu",
+        "es": "Tuvalu",
+        "pt": "Tuvalu",
+        "ar": "توفالو",
+        "th": "ตูวาลู",
+        "vi": "Tuvalu",
+        "id": "Tuvalu",
+        "ru": "Тувалу"
+      },
+      "colors": ["blue", "yellow", "white", "red"],
+      "symbols": ["star", "cross"]
+    },
+    {
+      "code": "TWN",
+      "code2": "TW",
+      "names": {
+        "en": "Taiwan",
+        "ja": "台湾",
+        "zh": "台湾",
+        "fr": "Taïwan",
+        "es": "Taiwán",
+        "pt": "Taiwan",
+        "ar": "تايوان",
+        "th": "ไต้หวัน",
+        "vi": "Đài Loan",
+        "id": "Taiwan",
+        "ru": "Тайвань"
+      },
+      "colors": ["red", "blue", "white"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "TZA",
+      "code2": "TZ",
+      "names": {
+        "en": "Tanzania",
+        "ja": "タンザニア",
+        "zh": "坦桑尼亚",
+        "fr": "Tanzanie",
+        "es": "Tanzania",
+        "pt": "Tanzânia",
+        "ar": "تنزانيا",
+        "th": "แทนซาเนีย",
+        "vi": "Tanzania",
+        "id": "Tanzania",
+        "ru": "Танзания"
+      },
+      "colors": ["green", "yellow", "blue", "black"],
+      "symbols": []
+    },
+    {
+      "code": "UGA",
+      "code2": "UG",
+      "names": {
+        "en": "Uganda",
+        "ja": "ウガンダ",
+        "zh": "乌干达",
+        "fr": "Ouganda",
+        "es": "Uganda",
+        "pt": "Uganda",
+        "ar": "أوغندا",
+        "th": "ยูกันดา",
+        "vi": "Uganda",
+        "id": "Uganda",
+        "ru": "Уганда"
+      },
+      "colors": ["black", "yellow", "red", "white"],
+      "symbols": ["animal", "circle"]
+    },
+    {
+      "code": "UKR",
+      "code2": "UA",
+      "names": {
+        "en": "Ukraine",
+        "ja": "ウクライナ",
+        "zh": "乌克兰",
+        "fr": "Ukraine",
+        "es": "Ucrania",
+        "pt": "Ucrânia",
+        "ar": "أوكرانيا",
+        "th": "ยูเครน",
+        "vi": "Ukraina",
+        "id": "Ukraina",
+        "ru": "Украина"
+      },
+      "colors": ["blue", "yellow"],
+      "symbols": []
+    },
+    {
+      "code": "URY",
+      "code2": "UY",
+      "names": {
+        "en": "Uruguay",
+        "ja": "ウルグアイ",
+        "zh": "乌拉圭",
+        "fr": "Uruguay",
+        "es": "Uruguay",
+        "pt": "Uruguai",
+        "ar": "أوروغواي",
+        "th": "อุรุกวัย",
+        "vi": "Uruguay",
+        "id": "Uruguay",
+        "ru": "Уругвай"
+      },
+      "colors": ["white", "blue", "yellow"],
+      "symbols": ["circle"]
+    },
+    {
+      "code": "USA",
+      "code2": "US",
+      "names": {
+        "en": "United States",
+        "ja": "アメリカ合衆国",
+        "zh": "美国",
+        "fr": "États-Unis",
+        "es": "Estados Unidos",
+        "pt": "Estados Unidos",
+        "ar": "الولايات المتحدة",
+        "th": "สหรัฐอเมริกา",
+        "vi": "Hoa Kỳ",
+        "id": "Amerika Serikat",
+        "ru": "США"
+      },
+      "colors": ["red", "white", "blue"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "UZB",
+      "code2": "UZ",
+      "names": {
+        "en": "Uzbekistan",
+        "ja": "ウズベキスタン",
+        "zh": "乌兹别克斯坦",
+        "fr": "Ouzbékistan",
+        "es": "Uzbekistán",
+        "pt": "Uzbequistão",
+        "ar": "أوزبكستان",
+        "th": "อุซเบกิสถาน",
+        "vi": "Uzbekistan",
+        "id": "Uzbekistan",
+        "ru": "Узбекистан"
+      },
+      "colors": ["blue", "white", "green", "red"],
+      "symbols": ["star", "moon"]
+    },
+    {
+      "code": "VAT",
+      "code2": "VA",
+      "names": {
+        "en": "Vatican City",
+        "ja": "バチカン",
+        "zh": "梵蒂冈",
+        "fr": "Vatican",
+        "es": "Vaticano",
+        "pt": "Vaticano",
+        "ar": "الفاتيكان",
+        "th": "นครรัฐวาติกัน",
+        "vi": "Vatican",
+        "id": "Vatikan",
+        "ru": "Ватикан"
+      },
+      "colors": ["yellow", "white"],
+      "symbols": ["emblem", "cross"]
+    },
+    {
+      "code": "VCT",
+      "code2": "VC",
+      "names": {
+        "en": "Saint Vincent and the Grenadines",
+        "ja": "セントビンセント・グレナディーン",
+        "zh": "圣文森特和格林纳丁斯",
+        "fr": "Saint-Vincent-et-les-Grenadines",
+        "es": "San Vicente y las Granadinas",
+        "pt": "São Vicente e Granadinas",
+        "ar": "سانت فينسنت والغرينادين",
+        "th": "เซนต์วินเซนต์และเกรนาดีนส์",
+        "vi": "Saint Vincent và Grenadines",
+        "id": "Saint Vincent dan Grenadines",
+        "ru": "Сент-Винсент и Гренадины"
+      },
+      "colors": ["blue", "yellow", "green"],
+      "symbols": ["emblem"]
+    },
+    {
+      "code": "VEN",
+      "code2": "VE",
+      "names": {
+        "en": "Venezuela",
+        "ja": "ベネズエラ",
+        "zh": "委内瑞拉",
+        "fr": "Venezuela",
+        "es": "Venezuela",
+        "pt": "Venezuela",
+        "ar": "فنزويلا",
+        "th": "เวเนซุเอลา",
+        "vi": "Venezuela",
+        "id": "Venezuela",
+        "ru": "Венесуэла"
+      },
+      "colors": ["yellow", "blue", "red"],
+      "symbols": ["star", "emblem"]
+    },
+    {
+      "code": "VNM",
+      "code2": "VN",
+      "names": {
+        "en": "Vietnam",
+        "ja": "ベトナム",
+        "zh": "越南",
+        "fr": "Viêt Nam",
+        "es": "Vietnam",
+        "pt": "Vietnã",
+        "ar": "فيتنام",
+        "th": "เวียดนาม",
+        "vi": "Việt Nam",
+        "id": "Vietnam",
+        "ru": "Вьетнам"
+      },
+      "colors": ["red", "yellow"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "VUT",
+      "code2": "VU",
+      "names": {
+        "en": "Vanuatu",
+        "ja": "バヌアツ",
+        "zh": "瓦努阿图",
+        "fr": "Vanuatu",
+        "es": "Vanuatu",
+        "pt": "Vanuatu",
+        "ar": "فانواتو",
+        "th": "วานูอาตู",
+        "vi": "Vanuatu",
+        "id": "Vanuatu",
+        "ru": "Вануату"
+      },
+      "colors": ["red", "green", "black", "yellow"],
+      "symbols": ["emblem", "triangle"]
+    },
+    {
+      "code": "WSM",
+      "code2": "WS",
+      "names": {
+        "en": "Samoa",
+        "ja": "サモア",
+        "zh": "萨摩亚",
+        "fr": "Samoa",
+        "es": "Samoa",
+        "pt": "Samoa",
+        "ar": "ساموا",
+        "th": "ซามัว",
+        "vi": "Samoa",
+        "id": "Samoa",
+        "ru": "Самоа"
+      },
+      "colors": ["red", "blue", "white"],
+      "symbols": ["star"]
+    },
+    {
+      "code": "XKX",
+      "code2": "XK",
+      "names": {
+        "en": "Kosovo",
+        "ja": "コソボ",
+        "zh": "科索沃",
+        "fr": "Kosovo",
+        "es": "Kosovo",
+        "pt": "Kosovo",
+        "ar": "كوسوفو",
+        "th": "โคโซโว",
+        "vi": "Kosovo",
+        "id": "Kosovo",
+        "ru": "Косово"
+      },
+      "colors": ["blue", "yellow", "white"],
+      "symbols": ["star", "emblem"]
+    },
+    {
+      "code": "YEM",
+      "code2": "YE",
+      "names": {
+        "en": "Yemen",
+        "ja": "イエメン",
+        "zh": "也门",
+        "fr": "Yémen",
+        "es": "Yemen",
+        "pt": "Iêmen",
+        "ar": "اليمن",
+        "th": "เยเมน",
+        "vi": "Yemen",
+        "id": "Yaman",
+        "ru": "Йемен"
+      },
+      "colors": ["red", "white", "black"],
+      "symbols": []
+    },
+    {
+      "code": "ZAF",
+      "code2": "ZA",
+      "names": {
+        "en": "South Africa",
+        "ja": "南アフリカ",
+        "zh": "南非",
+        "fr": "Afrique du Sud",
+        "es": "Sudáfrica",
+        "pt": "África do Sul",
+        "ar": "جنوب أفريقيا",
+        "th": "แอฟริกาใต้",
+        "vi": "Nam Phi",
+        "id": "Afrika Selatan",
+        "ru": "ЮАР"
+      },
+      "colors": ["red", "green", "blue", "yellow", "black", "white"],
+      "symbols": ["triangle"]
+    },
+    {
+      "code": "ZMB",
+      "code2": "ZM",
+      "names": {
+        "en": "Zambia",
+        "ja": "ザンビア",
+        "zh": "赞比亚",
+        "fr": "Zambie",
+        "es": "Zambia",
+        "pt": "Zâmbia",
+        "ar": "زامبيا",
+        "th": "แซมเบีย",
+        "vi": "Zambia",
+        "id": "Zambia",
+        "ru": "Замбия"
+      },
+      "colors": ["green", "red", "black", "orange"],
+      "symbols": ["animal"]
+    },
+    {
+      "code": "ZWE",
+      "code2": "ZW",
+      "names": {
+        "en": "Zimbabwe",
+        "ja": "ジンバブエ",
+        "zh": "津巴布韦",
+        "fr": "Zimbabwe",
+        "es": "Zimbabue",
+        "pt": "Zimbábue",
+        "ar": "زيمبابوي",
+        "th": "ซิมบับเว",
+        "vi": "Zimbabwe",
+        "id": "Zimbabwe",
+        "ru": "Зимбабве"
+      },
+      "colors": ["green", "yellow", "red", "black", "white"],
+      "symbols": ["star", "animal", "triangle"]
+    }
+  ]
+}

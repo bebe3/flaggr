@@ -1,0 +1,14 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import FlaggrApp from '@/components/FlaggrApp';
+import type { Country } from '@/types/country';
+import countriesData from '@/data/countries.json';
+import { UI_STRINGS } from '@/config/languages';
+
+const countries = countriesData.countries as Country[];
+const strings = UI_STRINGS.en;
+---
+
+<Layout title="Flaggr" description={strings.description}>
+  <FlaggrApp client:only="react" countries={countries} initialLang="en" />
+</Layout>

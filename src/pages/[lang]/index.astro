@@ -1,0 +1,27 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import FlaggrApp from '@/components/FlaggrApp';
+import countriesData from '@/data/countries.json';
+import { LANGUAGES, UI_STRINGS } from '@/config/languages';
+import type { Language, Country } from '@/types/country';
+
+export function getStaticPaths() {
+  return LANGUAGES.filter((l) => l.code !== 'en').map((lang) => ({
+    params: { lang: lang.code },
+    props: { lang: lang.code, dir: lang.dir },
+  }));
+}
+
+interface Props {
+  lang: Language;
+  dir: 'ltr' | 'rtl';
+}
+
+const { lang, dir } = Astro.props;
+const countries = countriesData.countries as Country[];
+const strings = UI_STRINGS[lang];
+---
+
+<Layout title="Flaggr - Flag Learning App" description={strings.description} lang={lang} dir={dir}>
+  <FlaggrApp client:only="react" countries={countries} initialLang={lang} />
+</Layout>

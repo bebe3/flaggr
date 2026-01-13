@@ -1,0 +1,148 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Header from '@/components/Header';
+---
+
+<Layout title="About - Flaggr" description="About Flaggr - an interactive flag learning app">
+  <div class="flex h-full flex-col">
+    <Header client:load showLanguageSwitcher={false} />
+    <div
+      class="flex-1 overflow-auto bg-linear-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800"
+    >
+      <div class="mx-auto max-w-3xl px-4 py-12">
+        <article class="text-slate-700 dark:text-slate-300">
+          <h1
+            class="mb-8 bg-linear-to-r from-indigo-600 via-blue-500 to-indigo-400 bg-clip-text text-3xl font-bold text-transparent dark:from-indigo-400 dark:via-blue-400 dark:to-indigo-300"
+          >
+            About Flaggr
+          </h1>
+
+          <h2 class="mb-4 mt-8 text-xl font-semibold text-slate-900 dark:text-slate-100">
+            Why I Built This
+          </h2>
+          <p class="mb-4 leading-relaxed">
+            My 3-year-old loves maps, globes, and flags. We have flashcards and books, but I wanted
+            to create something more interactive.
+          </p>
+          <p class="mb-4 leading-relaxed">
+            So I built Flaggr: an interactive way to explore countries by filtering their flags by
+            colors and symbols.
+          </p>
+          <p class="mb-4 leading-relaxed">
+            I'm honestly not sure if he'll prefer this over physical flashcards - he might still be
+            too young. But it was a fun way to learn web mapping technology (MapLibre, vector
+            tiles), something I've been curious about.
+          </p>
+
+          <h2 class="mb-4 mt-8 text-xl font-semibold text-slate-900 dark:text-slate-100">
+            How It Was Built
+          </h2>
+          <p class="mb-4 leading-relaxed">
+            Built with <a
+              href="https://claude.ai/code"
+              target="_blank"
+              rel="noopener"
+              class="text-indigo-600 underline hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
+              >Claude Code</a
+            > while managing parenting duties. The AI assistance massively sped up development.
+          </p>
+          <p class="mb-4 leading-relaxed">
+            Tech stack: <a
+              href="https://astro.build"
+              target="_blank"
+              rel="noopener"
+              class="text-indigo-600 underline hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
+              >Astro</a
+            >,
+            <a
+              href="https://react.dev"
+              target="_blank"
+              rel="noopener"
+              class="text-indigo-600 underline hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
+              >React</a
+            >,
+            <a
+              href="https://maplibre.org"
+              target="_blank"
+              rel="noopener"
+              class="text-indigo-600 underline hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
+              >MapLibre GL JS</a
+            >,
+            <a
+              href="https://pages.cloudflare.com"
+              target="_blank"
+              rel="noopener"
+              class="text-indigo-600 underline hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
+              >Cloudflare Pages</a
+            >
+          </p>
+
+          <h2 class="mb-4 mt-8 text-xl font-semibold text-slate-900 dark:text-slate-100">
+            Open Source
+          </h2>
+          <p class="mb-4 leading-relaxed">
+            Flaggr is completely free and open source (MIT License). <br />You can find the code on
+            <a
+              href="https://github.com/bebe3/flaggr"
+              target="_blank"
+              rel="noopener"
+              class="text-indigo-600 underline hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
+              >GitHub</a
+            >.
+          </p>
+
+          <h2 class="mb-4 mt-8 text-xl font-semibold text-slate-900 dark:text-slate-100">
+            Credits
+          </h2>
+          <ul class="mb-4 list-inside list-disc space-y-2 leading-relaxed">
+            <li>
+              Flag SVGs: <a
+                href="https://github.com/catamphetamine/country-flag-icons"
+                target="_blank"
+                rel="noopener"
+                class="text-indigo-600 underline hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
+                >country-flag-icons</a
+              >
+            </li>
+            <li>
+              Map tiles: <a
+                href="https://openfreemap.org"
+                target="_blank"
+                rel="noopener"
+                class="text-indigo-600 underline hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
+                >OpenFreeMap</a
+              >
+            </li>
+            <li>
+              Map data: <a
+                href="https://www.openstreetmap.org"
+                target="_blank"
+                rel="noopener"
+                class="text-indigo-600 underline hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
+                >OpenStreetMap</a
+              >
+            </li>
+            <li>
+              Country boundaries: <a
+                href="https://www.naturalearthdata.com"
+                target="_blank"
+                rel="noopener"
+                class="text-indigo-600 underline hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
+                >Natural Earth</a
+              >
+            </li>
+            <li>
+              Icons: <a
+                href="https://lucide.dev"
+                target="_blank"
+                rel="noopener"
+                class="text-indigo-600 underline hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
+                >Lucide</a
+              >
+            </li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </div>
+</Layout>
