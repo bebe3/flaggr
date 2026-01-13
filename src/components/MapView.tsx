@@ -19,7 +19,7 @@ interface MapViewProps {
 }
 
 // GeoJSON property key for ISO alpha-3 code
-const ISO_A3_KEY = 'ISO3166-1-Alpha-3';
+const ISO_A3_KEY = 'ISO_A3';
 const SOURCE_ID = 'countries';
 
 export default function MapView({
