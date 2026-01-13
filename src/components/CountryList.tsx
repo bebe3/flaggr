@@ -1,7 +1,6 @@
 import { Globe, Search } from 'lucide-react';
 import type { Country, Language } from '@/types/country';
 import { UI_STRINGS } from '@/config/languages';
-import { cn } from '@/lib/utils';
 import CountryListItem from './CountryListItem';
 
 interface CountryListProps {
@@ -10,7 +9,6 @@ interface CountryListProps {
   hasActiveFilters: boolean;
   onCountryHover: (code: string | null) => void;
   onCountryClick: (code: string) => void;
-  isMobile?: boolean;
 }
 
 export default function CountryList({
@@ -19,7 +17,6 @@ export default function CountryList({
   hasActiveFilters,
   onCountryHover,
   onCountryClick,
-  isMobile = false,
 }: CountryListProps) {
   const strings = UI_STRINGS[currentLang];
 
@@ -36,7 +33,7 @@ export default function CountryList({
   }
 
   return (
-    <ul className={cn('space-y-1 p-1', !isMobile && 'h-full overflow-y-auto')}>
+    <ul className="space-y-1 p-1">
       {countries.map((country) => (
         <CountryListItem
           key={country.code}

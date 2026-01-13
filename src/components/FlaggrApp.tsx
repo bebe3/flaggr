@@ -11,7 +11,7 @@ import { Button } from './ui/button';
 import Header from './Header';
 import SearchPane from './SearchPane';
 import MapHoverLabel from './MapHoverLabel';
-import { Drawer, DrawerContent, DrawerTitle } from './ui/drawer';
+import { Sheet, SheetContent, SheetTitle } from './ui/sheet';
 import { ResizablePanelGroup, ResizablePanel, ResizableHandle } from './ui/resizable';
 
 const MapView = lazy(() => import('./MapView'));
@@ -186,13 +186,16 @@ export default function FlaggrApp({ countries, initialLang }: FlaggrAppProps) {
             )}
           </Button>
 
-          {/* Bottom Drawer */}
-          <Drawer open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
-            <DrawerContent
-              className="overflow-hidden bg-transparent p-0"
+          {/* Bottom Sheet */}
+          <Sheet open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
+            <SheetContent
+              side="bottom"
+              className="h-[85vh] overflow-hidden rounded-t-2xl border-none bg-transparent p-0"
+              hideCloseButton
+              onOpenAutoFocus={(e) => e.preventDefault()}
               aria-describedby={undefined}
             >
-              <DrawerTitle className="sr-only">Filter</DrawerTitle>
+              <SheetTitle className="sr-only">Filter</SheetTitle>
               <SearchPane
                 countries={filteredCountries}
                 filters={filters}
@@ -205,9 +208,10 @@ export default function FlaggrApp({ countries, initialLang }: FlaggrAppProps) {
                 onCountryHover={handleListCountryHover}
                 onCountryClick={handleCountryClick}
                 isMobile
+                onClose={() => setIsDrawerOpen(false)}
               />
-            </DrawerContent>
-          </Drawer>
+            </SheetContent>
+          </Sheet>
         </div>
       ) : (
         /* Desktop/Tablet: Resizable 2-pane layout */

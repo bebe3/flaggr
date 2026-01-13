@@ -1,4 +1,4 @@
-import { Search } from 'lucide-react';
+import { Search, X } from 'lucide-react';
 import type { Country, Color, Symbol, Language, FilterState } from '@/types/country';
 import { UI_STRINGS } from '@/config/languages';
 import { cn } from '@/lib/utils';
@@ -19,6 +19,7 @@ interface SearchPaneProps {
   onCountryHover: (code: string | null) => void;
   onCountryClick: (code: string) => void;
   isMobile?: boolean;
+  onClose?: () => void;
 }
 
 export default function SearchPane({
@@ -33,6 +34,7 @@ export default function SearchPane({
   onCountryHover,
   onCountryClick,
   isMobile = false,
+  onClose,
 }: SearchPaneProps) {
   const strings = UI_STRINGS[currentLang];
 
@@ -43,15 +45,21 @@ export default function SearchPane({
         isMobile && 'rounded-t-2xl'
       )}
     >
-      {/* Drag Handle - mobile only */}
-      {isMobile && (
-        <div className="flex shrink-0 justify-center pb-2 pt-3">
-          <div className="h-1 w-10 rounded-full bg-slate-300 dark:bg-slate-600" />
-        </div>
-      )}
+      {/* Content container */}
+      <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
+        {/* Close button - mobile only */}
+        {isMobile && onClose && (
+          <div className="flex shrink-0 justify-end px-4 pt-4">
+            <button
+              onClick={onClose}
+              className="rounded-full p-1 text-slate-500 hover:bg-slate-200 dark:text-slate-400 dark:hover:bg-slate-700"
+              aria-label="Close"
+            >
+              <X className="size-5" />
+            </button>
+          </div>
+        )}
 
-      {/* Scrollable content */}
-      <div className="flex min-h-0 flex-1 flex-col overflow-y-auto">
         {/* Search Input */}
         <div
           className={cn(
@@ -121,14 +129,13 @@ export default function SearchPane({
               </Button>
             )}
           </div>
-          <div className="min-h-0 flex-1">
+          <div className="min-h-0 flex-1 overflow-y-auto">
             <CountryList
               countries={countries}
               currentLang={currentLang}
               hasActiveFilters={hasActiveFilters}
               onCountryHover={onCountryHover}
               onCountryClick={onCountryClick}
-              isMobile={isMobile}
             />
           </div>
         </div>
