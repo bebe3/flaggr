@@ -199,13 +199,15 @@ export default function MapView({
         longitude: MAP_CONFIG.initialCenter.longitude,
         latitude: MAP_CONFIG.initialCenter.latitude,
         zoom: MAP_CONFIG.initialZoom,
-        pitch: MAP_CONFIG.initialPitch,
-        bearing: MAP_CONFIG.initialBearing,
+        pitch: MAP_CONFIG.pitch,
+        bearing: MAP_CONFIG.bearing,
       }}
       minZoom={minZoom ?? MAP_CONFIG.minZoom}
       maxZoom={MAP_CONFIG.maxZoom}
-      minPitch={MAP_CONFIG.minPitch}
-      maxPitch={MAP_CONFIG.maxPitch}
+      bearing={MAP_CONFIG.bearing}
+      pitch={MAP_CONFIG.pitch}
+      minPitch={MAP_CONFIG.pitch}
+      maxPitch={MAP_CONFIG.pitch}
       dragRotate={false}
       touchPitch={false}
       pitchWithRotate={false}
