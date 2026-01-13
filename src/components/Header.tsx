@@ -1,3 +1,10 @@
+/**
+ * React Header - For FlaggrApp
+ *
+ * Why are there two Headers?
+ * - Header.tsx: For FlaggrApp. Requires React state management integration.
+ * - HeaderAstro.astro: For static pages. Uses CSS to toggle theme icons, zero flicker.
+ */
 import { Moon, Sun, Info } from 'lucide-react';
 import type { Language } from '@/types/country';
 import { useTheme } from '@/hooks/useTheme';
@@ -45,14 +52,14 @@ export default function Header({
           className="rounded-full text-slate-500 hover:bg-slate-200/70 hover:text-slate-700 dark:text-slate-400 dark:hover:bg-slate-700/70 dark:hover:text-slate-200"
           aria-label="Toggle theme"
         >
-          {theme === 'light' ? <Moon className="size-5" /> : <Sun className="size-5" />}
+          {theme === 'dark' ? <Sun className="size-5" /> : <Moon className="size-5" />}
         </Button>
         <a
           href="/about"
           className="inline-flex size-9 items-center justify-center rounded-full text-slate-500 transition-colors hover:bg-slate-200/70 hover:text-slate-700 dark:text-slate-400 dark:hover:bg-slate-700/70 dark:hover:text-slate-200"
           aria-label="About"
         >
-          <Info className="size-5" />
+          <Info className="size-4" />
         </a>
       </div>
     </header>

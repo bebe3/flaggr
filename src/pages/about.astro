@@ -1,11 +1,11 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import Header from '@/components/Header';
+import HeaderAstro from '@/components/HeaderAstro.astro';
 ---
 
 <Layout title="About - Flaggr" description="About Flaggr - an interactive flag learning app">
   <div class="flex h-full flex-col">
-    <Header client:load showLanguageSwitcher={false} />
+    <HeaderAstro />
     <div
       class="flex-1 overflow-auto bg-linear-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800"
     >

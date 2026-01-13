@@ -24,6 +24,15 @@ const canonicalUrl = lang === 'en' ? siteUrl : `${siteUrl}/${lang}`;
 <html lang={lang} dir={dir} class="h-full">
   <head>
     <meta charset="UTF-8" />
+    <script is:inline>
+      (function () {
+        const stored = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (stored === 'dark' || (!stored && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
