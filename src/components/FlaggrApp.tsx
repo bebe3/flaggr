@@ -11,7 +11,7 @@ import { Button } from './ui/button';
 import Header from './Header';
 import SearchPane from './SearchPane';
 import MapHoverLabel from './MapHoverLabel';
-import { Sheet, SheetContent } from './ui/sheet';
+import { Drawer, DrawerContent, DrawerTitle } from './ui/drawer';
 import { ResizablePanelGroup, ResizablePanel, ResizableHandle } from './ui/resizable';
 
 const MapView = lazy(() => import('./MapView'));
@@ -36,7 +36,7 @@ export default function FlaggrApp({ countries, initialLang }: FlaggrAppProps) {
   const [selectedCountryCode, setSelectedCountryCode] = useState<string | null>(null);
   const [selectSource, setSelectSource] = useState<'map' | 'list' | null>(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [isSheetOpen, setIsSheetOpen] = useState(false);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [tappedCountryCode, setTappedCountryCode] = useState<string | null>(null);
   const [tapPosition, setTapPosition] = useState({ x: 0, y: 0 });
   const [sidebarWidth, setSidebarWidth] = useState(0);
@@ -98,12 +98,12 @@ export default function FlaggrApp({ countries, initialLang }: FlaggrAppProps) {
             setTapPosition(position);
           }
         } else {
-          // List click - close sheet and center
+          // List click - close drawer and center
           setSelectedCountryCode(code);
           setSelectSource('list');
           setTappedCountryCode(null);
         }
-        setIsSheetOpen(false);
+        setIsDrawerOpen(false);
       } else {
         // On desktop
         setSelectedCountryCode(code);
@@ -175,7 +175,7 @@ export default function FlaggrApp({ countries, initialLang }: FlaggrAppProps) {
           <Button
             variant="secondary"
             size="icon"
-            onClick={() => setIsSheetOpen(true)}
+            onClick={() => setIsDrawerOpen(true)}
             className="fixed left-4 top-18 z-10 size-12 rounded-full bg-white/90 shadow-lg backdrop-blur-sm transition-transform active:scale-95 dark:bg-slate-800/90"
           >
             <SlidersHorizontal className="size-5 text-slate-600 dark:text-slate-300" />
@@ -187,13 +187,12 @@ export default function FlaggrApp({ countries, initialLang }: FlaggrAppProps) {
           </Button>
 
           {/* Bottom Drawer */}
-          <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
-            <SheetContent
-              side="bottom"
-              className="h-[70vh]! max-h-[90vh] flex-col overflow-hidden rounded-t-2xl border-none bg-transparent p-0"
-              hideCloseButton
-              onOpenAutoFocus={(e) => e.preventDefault()}
+          <Drawer open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
+            <DrawerContent
+              className="overflow-hidden bg-transparent p-0"
+              aria-describedby={undefined}
             >
+              <DrawerTitle className="sr-only">Filter</DrawerTitle>
               <SearchPane
                 countries={filteredCountries}
                 filters={filters}
@@ -207,8 +206,8 @@ export default function FlaggrApp({ countries, initialLang }: FlaggrAppProps) {
                 onCountryClick={handleCountryClick}
                 isMobile
               />
-            </SheetContent>
-          </Sheet>
+            </DrawerContent>
+          </Drawer>
         </div>
       ) : (
         /* Desktop/Tablet: Resizable 2-pane layout */
