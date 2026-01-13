@@ -199,12 +199,17 @@ export default function MapView({
         longitude: MAP_CONFIG.initialCenter.longitude,
         latitude: MAP_CONFIG.initialCenter.latitude,
         zoom: MAP_CONFIG.initialZoom,
+        pitch: MAP_CONFIG.initialPitch,
+        bearing: MAP_CONFIG.initialBearing,
       }}
       minZoom={minZoom ?? MAP_CONFIG.minZoom}
       maxZoom={MAP_CONFIG.maxZoom}
-      maxPitch={0}
+      minPitch={MAP_CONFIG.minPitch}
+      maxPitch={MAP_CONFIG.maxPitch}
       dragRotate={false}
       touchPitch={false}
+      pitchWithRotate={false}
+      touchZoomRotate={true}
       style={{ width: '100%', height: '100%' }}
       mapStyle={mapStyle}
       interactiveLayerIds={['countries-base', 'countries-highlight']}
