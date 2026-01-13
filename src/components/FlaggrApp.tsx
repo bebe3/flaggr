@@ -191,6 +191,7 @@ export default function FlaggrApp({ countries, initialLang }: FlaggrAppProps) {
               side="bottom"
               className="h-[70vh]! max-h-[90vh] flex-col overflow-hidden rounded-t-2xl border-none bg-transparent p-0"
               hideCloseButton
+              onOpenAutoFocus={(e) => e.preventDefault()}
             >
               <SearchPane
                 countries={filteredCountries}
