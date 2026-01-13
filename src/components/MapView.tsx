@@ -200,6 +200,9 @@ export default function MapView({
       }}
       minZoom={MAP_CONFIG.minZoom}
       maxZoom={MAP_CONFIG.maxZoom}
+      maxPitch={0}
+      dragRotate={false}
+      touchPitch={false}
       style={{ width: '100%', height: '100%' }}
       mapStyle={mapStyle}
       interactiveLayerIds={['countries-base', 'countries-highlight']}
