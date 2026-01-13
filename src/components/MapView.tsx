@@ -13,6 +13,7 @@ interface MapViewProps {
   selectedCountry: Country | null;
   selectSource: 'map' | 'list' | null;
   theme: 'light' | 'dark';
+  minZoom?: number;
   onCountryHover: (code: string | null) => void;
   onCountryClick: (code: string, position: { x: number; y: number }) => void;
   onEmptyClick?: () => void;
@@ -29,6 +30,7 @@ export default function MapView({
   selectedCountry,
   selectSource,
   theme,
+  minZoom,
   onCountryHover,
   onCountryClick,
   onEmptyClick,
@@ -198,7 +200,7 @@ export default function MapView({
         latitude: MAP_CONFIG.initialCenter.latitude,
         zoom: MAP_CONFIG.initialZoom,
       }}
-      minZoom={MAP_CONFIG.minZoom}
+      minZoom={minZoom ?? MAP_CONFIG.minZoom}
       maxZoom={MAP_CONFIG.maxZoom}
       maxPitch={0}
       dragRotate={false}

@@ -5,7 +5,7 @@ import { useTheme } from '@/hooks/useTheme';
 import { useCountryFilter } from '@/hooks/useCountryFilter';
 import { useIsMobile } from '@/hooks/useMediaQuery';
 import { getCountryByCode } from '@/utils/filterCountries';
-import { PANEL_SIZES } from '@/config/constants';
+import { MAP_CONFIG, PANEL_SIZES } from '@/config/constants';
 import { isRTL, getLanguageConfig } from '@/config/languages';
 import { Button } from './ui/button';
 import Header from './Header';
@@ -164,6 +164,7 @@ export default function FlaggrApp({ countries, initialLang }: FlaggrAppProps) {
               selectedCountry={selectedCountry}
               selectSource={selectSource}
               theme={theme}
+              minZoom={MAP_CONFIG.mobileMinZoom}
               onCountryHover={handleMapCountryHover}
               onCountryClick={handleCountryClick}
               onEmptyClick={() => setTappedCountryCode(null)}

@@ -7,6 +7,7 @@ export const MAP_CONFIG = {
   initialZoom: 2.1,
   listClickZoom: 2.4,
   minZoom: 2.1,
+  mobileMinZoom: 1,
   maxZoom: 6,
   fitBoundsMaxZoom: 4,
   fitBoundsPadding: 100,
