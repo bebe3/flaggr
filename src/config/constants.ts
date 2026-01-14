@@ -25,7 +25,7 @@ export const HOVER_LABEL = {
   desktopYOffset: 80,
 } as const;
 
-// Resizable panel constants
+// Resizable panel constants (pixels)
 export const PANEL_SIZES = {
   defaultWidth: '280px',
   minWidth: '260px',

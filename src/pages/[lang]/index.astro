@@ -12,12 +12,7 @@ export function getStaticPaths() {
   }));
 }
 
-interface Props {
-  lang: Language;
-  dir: 'ltr' | 'rtl';
-}
-
-const { lang, dir } = Astro.props;
+const { lang, dir } = Astro.props as { lang: Language; dir: 'ltr' | 'rtl' };
 const countries = countriesData.countries as Country[];
 const strings = UI_STRINGS[lang];
 ---

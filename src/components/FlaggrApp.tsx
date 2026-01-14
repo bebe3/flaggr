@@ -3,10 +3,11 @@ import { SlidersHorizontal, Loader2 } from 'lucide-react';
 import type { Country, Language } from '@/types/country';
 import { useTheme } from '@/hooks/useTheme';
 import { useCountryFilter } from '@/hooks/useCountryFilter';
-import { useIsMobile } from '@/hooks/useMediaQuery';
+import { useIsMobile, useIsDesktop } from '@/hooks/useMediaQuery';
 import { getCountryByCode } from '@/utils/filterCountries';
 import { MAP_CONFIG, PANEL_SIZES } from '@/config/constants';
 import { isRTL, getLanguageConfig } from '@/config/languages';
+import { setLanguage } from '@/stores/language';
 import { Button } from './ui/button';
 import Header from './Header';
 import SearchPane from './SearchPane';
@@ -43,6 +44,8 @@ export default function FlaggrApp({ countries, initialLang }: FlaggrAppProps) {
   const sidebarRef = useRef<HTMLDivElement>(null);
 
   const isMobile = useIsMobile();
+  const isDesktop = useIsDesktop();
+  const mapMinZoom = isDesktop ? MAP_CONFIG.minZoom : MAP_CONFIG.mobileMinZoom;
   const { theme, toggleTheme } = useTheme();
   const {
     filters,
@@ -126,6 +129,9 @@ export default function FlaggrApp({ countries, initialLang }: FlaggrAppProps) {
     const config = getLanguageConfig(lang);
     document.documentElement.dir = config?.dir || 'ltr';
     document.documentElement.lang = lang;
+
+    // Save language preference
+    setLanguage(lang);
   }, []);
 
   // Track sidebar width for hover label positioning
@@ -164,7 +170,7 @@ export default function FlaggrApp({ countries, initialLang }: FlaggrAppProps) {
               selectedCountry={selectedCountry}
               selectSource={selectSource}
               theme={theme}
-              minZoom={MAP_CONFIG.mobileMinZoom}
+              minZoom={mapMinZoom}
               onCountryHover={handleMapCountryHover}
               onCountryClick={handleCountryClick}
               onEmptyClick={() => setTappedCountryCode(null)}
@@ -251,6 +257,7 @@ export default function FlaggrApp({ countries, initialLang }: FlaggrAppProps) {
                   selectedCountry={selectedCountry}
                   selectSource={selectSource}
                   theme={theme}
+                  minZoom={mapMinZoom}
                   onCountryHover={handleMapCountryHover}
                   onCountryClick={handleCountryClick}
                   onEmptyClick={() => setTappedCountryCode(null)}

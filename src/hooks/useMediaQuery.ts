@@ -19,6 +19,11 @@ export function useMediaQuery(query: string): boolean {
 }
 
 export function useIsMobile(): boolean {
-  // Mobile mode for anything under 768px
+  // Mobile layout for anything under 768px (md breakpoint)
   return useMediaQuery('(max-width: 767px)');
+}
+
+export function useIsDesktop(): boolean {
+  // Desktop is 1280px and above (xl breakpoint)
+  return useMediaQuery('(min-width: 1280px)');
 }

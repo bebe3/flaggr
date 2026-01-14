@@ -26,10 +26,19 @@ const canonicalUrl = lang === 'en' ? siteUrl : `${siteUrl}/${lang}`;
     <meta charset="UTF-8" />
     <script is:inline>
       (function () {
-        const stored = localStorage.getItem('theme');
+        // Theme initialization (read directly from localStorage - same key as nanostores)
+        const storedTheme = localStorage.getItem('theme');
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (stored === 'dark' || (!stored && prefersDark)) {
+        if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
           document.documentElement.classList.add('dark');
+        }
+
+        // Language redirect (only on root path)
+        if (window.location.pathname === '/') {
+          const storedLang = localStorage.getItem('language');
+          if (storedLang && storedLang !== 'en') {
+            window.location.replace('/' + storedLang + '/');
+          }
         }
       })();
     </script>
